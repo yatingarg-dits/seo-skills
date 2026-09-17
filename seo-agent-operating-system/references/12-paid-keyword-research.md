@@ -2,93 +2,80 @@
 
 ## Purpose
 
-Build and qualify search-ad keyword candidates separately from organic SEO difficulty.
+Build and validate a Google Ads/Search paid-keyword universe based on campaign economics, intent, and landing-page fit.
 
 ## Prerequisites
 
 Load:
 
 - [10-keyword-intake.md](10-keyword-intake.md)
+- [16-keyword-data-source-priority.md](16-keyword-data-source-priority.md)
+- [17-keyword-api-integration.md](17-keyword-api-integration.md) when available
 - [04-property-context.md](04-property-context.md)
 
-## Campaign context
+## Process order
 
-Capture:
+### 1. Define campaign objective
 
-- Objective
-- Conversion action
-- Geography
-- Language
-- Budget if supplied
-- Target CPA/ROAS if supplied
-- Landing pages
-- Brand versus non-brand requirement
-- Competitor-term policy
+Resolve lead/purchase/demo/call/awareness goal, target geography, language, budget context, conversion action, and landing-page availability.
 
-## Sources
+### 2. Build seeds
 
-Use approved available sources such as:
+Use services/products, organic research, Keyword Planner, existing Ads search terms, Search Console, sales/customer terminology, competitor landing pages, and approved paid research tools.
 
-- Google Keyword Planner
-- Existing Google Ads search terms
-- Existing Google Ads keyword performance
-- Organic keyword research
-- Search Console
-- Website service/product terms
-- Competitor landing pages
-- Approved paid-search research tools
+### 3. Collect Google Ads metrics
 
-## Collect per keyword
+Where available store:
 
-Store:
-
-- Keyword
-- Avg. monthly searches
+- Average monthly searches
 - Competition
 - Competition index when available
-- Top-of-page bid low
-- Top-of-page bid high
-- CPC where available
-- Trend/seasonality
-- Location
-- Intent
-- Conversion relevance
-- Landing page
-- Brand/non-brand
-- Competitor term yes/no
-- Negative-keyword candidate yes/no
-- Source/date
+- Top-of-page bid low/high
+- Location/language/network
+- Monthly/seasonal trend
 
-## Critical rule
+Treat `Competition` as advertiser competition, not organic KD.
 
-Paid `Competition` represents advertiser competition. Do not label it as organic keyword difficulty.
+### 4. Commercial intent
 
-## Segmentation
+Classify:
 
-Classify into:
+- BRAND
+- CORE_SERVICE_OR_PRODUCT
+- HIGH_INTENT_TRANSACTIONAL
+- COMMERCIAL_RESEARCH
+- PROBLEM_SOLUTION
+- LOCAL
+- COMPETITOR
+- INFORMATIONAL
 
-- Brand
-- Core service/product
-- High-intent transactional
-- Problem/solution
-- Location
-- Competitor
-- Informational/research
+### 5. Landing-page fit
 
-## Negative keyword candidates
+Map keyword -> ad group/theme -> intended message -> landing page -> conversion.
 
-Flag terms whose intent conflicts with the property goal, such as jobs, salary, free, course, training, DIY, or irrelevant locations only when they are actually irrelevant to this client.
+Do not activate high-volume terms with weak landing-page relevance merely because volume is high.
 
-Do not apply a universal negative list blindly.
+### 6. Negative-keyword research
 
-## Landing-page fit
+Identify irrelevant intent such as jobs, salary, free, course/training, DIY, definition, template, unsupported location, unrelated industry, or other client-specific negatives.
 
-For every approved keyword identify:
+Do not apply generic negatives that conflict with the client's actual offer.
 
-`Keyword -> Intent -> Ad group/theme -> Landing page -> Conversion action`
+### 7. Organic/Paid/Both classification
 
-If no suitable landing page exists, mark `LANDING_PAGE_GAP`.
+Use:
 
-## Output
+- `SEO_ONLY`: useful organic topic but poor paid economics/intent.
+- `PAID_ONLY`: highly commercial query not suitable as a standalone organic page or strategically reserved for ads.
+- `BOTH`: strong business/intent match for SEO and Ads with appropriate landing page.
+- `NEITHER`: irrelevant, misleading, prohibited, or uneconomic under supplied campaign constraints.
 
-Send the candidate set to [15-keyword-validation-output.md](15-keyword-validation-output.md).
+Do not infer profitability without conversion/cost data.
+
+## Output fields
+
+Store keyword, cluster, intent, monthly searches, competition, bid ranges, source, match-type recommendation when requested, negatives, landing page, organic/paid/both status, priority, and reason.
+
+## Handoff
+
+Use [15-keyword-validation-output.md](15-keyword-validation-output.md).

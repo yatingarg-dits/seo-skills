@@ -2,118 +2,103 @@
 
 ## Purpose
 
-Decide whether a candidate website is suitable for backlink activity using multiple quality signals, not DA alone.
+Decide whether a candidate website is suitable using relevance, audience, real visibility, risk, authority, indexability, and manual quality—not DA alone.
 
 ## Inputs
 
-Use candidates from:
+Use candidates from discovery/community intake and check [44-historical-backlink-database.md](44-historical-backlink-database.md) before rework.
 
-- [30-backlink-discovery.md](30-backlink-discovery.md)
-- [31-community-link-intake.md](31-community-link-intake.md)
+Load property context.
 
-Load [04-property-context.md](04-property-context.md).
+## Platform default v1 thresholds
 
-## Qualification dimensions
+These are overridable platform defaults, not Google standards.
 
-### 1. Topical relevance
+### Topical relevance
+
+- HIGH: preferred
+- MEDIUM/adjacent: acceptable with clear audience/context fit
+- LOW: reject unless a documented PR/brand rationale exists
+
+### Audience fit
+
+- HIGH/MEDIUM: continue
+- LOW: manual review; reject for link-building-only objective
+
+### Geography
+
+Prefer target-market or genuinely global publishers.
+
+If available audience data shows less than about 10% from the target geography and the site is not globally relevant to the client's audience, mark `MANUAL_REVIEW_GEOGRAPHY` rather than auto-approve.
+
+### Domain Authority (Moz)
+
+- `DA >= 30`: preferred supporting authority signal
+- `DA 20-29`: conditional/manual review
+- `DA < 20`: normally reject for generic outreach, but allow documented niche/local/institutional exceptions
+
+### Page Authority (Moz)
+
+For an established existing placement page:
+
+- `PA >= 20`: preferred
+- `PA 10-19`: conditional
+- `PA < 10`: manual review
+
+Do not reject a newly created editorial page solely because PA starts low.
+
+### Spam Score (Moz)
+
+- `0-15%`: preferred
+- `16-30%`: manual review
+- `>30%`: normally reject unless a strong documented manual exception exists
+
+Never use Spam Score alone.
+
+### Organic visibility
+
+Use estimated traffic and ranking keywords as legitimacy/support signals.
+
+Default traffic interpretation:
+
+- `>=1000 estimated organic visits/month`: strong supporting signal when relevant
+- `100-999`: acceptable with relevance/quality
+- `1-99`: manual review; can still pass for real niche/local/institutional sites
+- `0`: normally reject for generic link building unless the site is new, authoritative offline/institutional, or another documented exception applies
+
+### Traffic trend
+
+Manual review when there is:
+
+- Roughly >50% sustained decline across a comparable 6-12 month period
+- Abrupt unexplained spike/drop
+- Major keyword/traffic geography shift
+
+### Indexation
+
+Prefer sites where homepage and recent relevant content are indexable/discoverable.
+
+For manual spot checks, review several recent pages; if most recent content appears non-indexed/noindex/canonicalized elsewhere, pause and investigate.
+
+## Manual website quality
 
 Check:
 
-- Same or adjacent niche
-- Relevant content category
-- Natural contextual fit
-- Client topic coverage
-
-Treat relevance as a primary decision signal.
-
-### 2. Audience fit
-
-Check when data is available:
-
-- Audience type
-- B2B/B2C fit
-- Industry fit
-- Country distribution
-- Language
-- Potential referral relevance
-
-### 3. Geography
-
-Compare publisher geography with property target markets. Do not reject global sites merely because the TLD differs.
-
-### 4. Authority metrics
-
-Record only metrics actually available, with source and date:
-
-- DA
-- PA
-- DR
-- Authority Score
-- Other approved authority metric
-
-Do not invent thresholds. Apply only team-approved cutoffs from [01-platform-seo-context.md](01-platform-seo-context.md).
-
-### 5. Spam/risk metrics
-
-Record Spam Score or other approved risk signals with source/date.
-
-Do not make a final decision from Spam Score alone.
-
-### 6. Organic visibility
-
-When available review:
-
-- Estimated organic traffic
-- Target-country traffic
-- Ranking keyword count
-- Relevant ranking topics
-- Trend direction
-- Sudden collapses/spikes
-
-### 7. Indexation
-
-Check where practical:
-
-- Homepage discoverability/indexation
-- Recent article indexation
-- Opportunity section indexation
-- Existing contributor post indexation
-- `noindex`/canonical behavior on target templates
-
-### 8. Manual website quality
-
-Review:
-
 - Real brand/business signals
-- About/contact presence
-- Realistic authors/editorial identity
-- Recent publishing
-- Content usefulness
+- About/contact/editorial identity
+- Recent useful publishing
+- Niche consistency
 - Navigation/usability
 - Excessive unrelated categories
-- Obvious link-farm patterns
+- Link-farm/network footprints
 - Hacked/spam pages
-- Adult/casino/pharma contamination where irrelevant/risky
+- Adult/casino/pharma contamination when unrelated
 - Excessive sponsored/commercial posts
+- Outbound-link/anchor patterns
 
-### 9. Outbound-link behavior
+## Existing relationship/link
 
-Check for:
-
-- Excessive unrelated external links
-- Repetitive commercial anchors
-- Obvious sitewide selling patterns
-- Network/template footprints
-
-### 10. Existing client relationship/link
-
-Check whether the property already has:
-
-- Live backlink
-- Historical backlink
-- Failed placement
-- Publisher contact
-- Paid agreement
+Check historical database for live/lost/failed/paid placement before recommending a new one.
 
 ## Decision statuses
 
@@ -127,28 +112,12 @@ Use:
 - REJECTED
 - ALREADY_USED
 - WEBSITE_UNAVAILABLE
-- NEEDS_HUMAN_RULE
+- NEEDS_REVALIDATION
 
 ## Mandatory reason
 
-Every non-approved status must include a reason.
-
-Common reasons:
-
-- Irrelevant niche
-- Wrong audience/geography
-- Poor real traffic/visibility
-- Severe decline
-- Deindexed/poor indexability
-- Link farm/network risk
-- Excessive outbound selling
-- Low editorial quality
-- Hacked/offline
-- Already used
-- Paid only
-- Insufficient evidence
-- Other documented reason
+Every non-approved status must state the exact reason/evidence.
 
 ## Handoff
 
-Send approved/manual-review candidates to [33-backlink-activity-classification.md](33-backlink-activity-classification.md).
+Classify commercial/access status with [42-backlink-commercial-classification.md](42-backlink-commercial-classification.md), then activity with [33-backlink-activity-classification.md](33-backlink-activity-classification.md).

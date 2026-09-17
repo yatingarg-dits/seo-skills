@@ -2,54 +2,53 @@
 
 ## Purpose
 
-Store agency-level rules that intentionally modify or narrow platform defaults across the agency's clients.
-
-Keep this layer separate even when no overrides exist yet.
+Store agency-level rules that intentionally modify platform defaults across the agency's clients.
 
 ## Context hierarchy
 
-Use:
+`Platform -> Agency -> Client -> Property -> Activity/Publisher`
 
-`Platform -> Agency -> Client -> Property`
+## Allowed override areas
 
-The platform layer defines generic operating behavior. The agency layer may override only rules that the platform allows to be overridden.
+Capture approved agency rules such as:
 
-## Possible agency overrides
-
-Capture only approved rules, such as:
-
-- Preferred tools/data providers
-- Standard report/output formats
-- Internal approval points
-- Agency-wide backlink restrictions
-- Agency-wide paid/free opportunity policy
-- Standard naming conventions
-- Standard severity definitions
+- Preferred keyword/SEO data providers
+- API/connector priority
+- Standard output/report formats
+- Backlink DA/PA/SS/traffic thresholds
+- Paid/free/exchange policy
+- Backlink capacity benchmarks
+- Publisher restrictions/allowlists
+- Standard author/bio requirements
+- Anchor/target-link constraints
+- Audit severity definitions
+- Human approval points
 - Standard feedback taxonomy
-- Standard QA requirements
-- Client onboarding requirements
 
-## Conflict handling
+## Override record
 
-For every override record:
+For each override store:
 
-- Platform rule being overridden
-- Agency rule
+- Platform rule/module
+- Agency replacement/constraint
 - Reason
 - Approved by
 - Effective date
+- Review date when applicable
 - Scope
 
-If an override is not explicitly approved, keep the platform rule.
+## Precedence
+
+If an approved agency override exists, use it before client/property defaults.
+
+If a client/property rule is stricter and allowed, use the stricter lower-level rule.
 
 If precedence is unclear, return `NEEDS_HUMAN_RULE`.
 
-## Empty-state behavior
+## Benchmark calibration
 
-If the agency has no overrides, record `NO_AGENCY_OVERRIDES` and continue with platform rules plus client/property context.
+Agency production data may replace provisional platform capacity ranges in [43-backlink-benchmark-capacity.md](43-backlink-benchmark-capacity.md) after approval.
 
-Do not invent agency policy to fill an empty layer.
+## Empty state
 
-## Handoff
-
-Load [03-client-context.md](03-client-context.md) and [04-property-context.md](04-property-context.md) for client-specific execution.
+If no override exists, record `NO_AGENCY_OVERRIDES` and continue with platform defaults.

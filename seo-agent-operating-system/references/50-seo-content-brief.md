@@ -2,76 +2,52 @@
 
 ## Purpose
 
-Turn an approved keyword cluster and property context into an execution-ready SEO content brief.
+Turn an approved keyword cluster and property context into an execution-ready content brief.
 
 ## Inputs
 
 Load:
 
 - [04-property-context.md](04-property-context.md)
+- [06-client-content-style-rules.md](06-client-content-style-rules.md)
+- [05-author-brand-identity.md](05-author-brand-identity.md) when author identity is relevant
 - [15-keyword-validation-output.md](15-keyword-validation-output.md)
-- SERP evidence from [13-serp-competitor-analysis.md](13-serp-competitor-analysis.md) when available
+- SERP evidence when available
 
 ## Brief fields
 
 Define:
 
-- Target URL or new-page requirement
+- Target URL/new-page requirement
 - Page type
-- Primary keyword
-- Secondary/supporting keywords
+- Primary/supporting keywords
 - Search intent
 - Target audience
-- Business objective
-- Conversion action
-- Main topic angle
-- Required subtopics
-- Questions to answer
-- Internal links to include
-- Relevant external references required
-- Client facts/claims allowed
-- Topics/claims to avoid
+- Business objective/conversion action
+- Main angle
+- Required subtopics/questions
+- Internal links
+- External evidence/references required
+- Approved facts/claims
+- Restricted claims/topics
+- Required terminology
+- Tone/voice
 - CTA guidance
 - Metadata direction
+- Author/brand identity when relevant
 
 ## SERP-derived guidance
 
-Use current observed SERP patterns to inform:
-
-- Dominant content/page type
-- Common subtopics
-- Missing angles/opportunities
-- Useful format elements
-
-Do not copy competitor structures mechanically.
+Use current SERP patterns for dominant page type, common subtopics, format expectations, and missing angles. Do not copy competitors mechanically.
 
 ## Content depth
 
-Specify the coverage required to satisfy intent. Do not prescribe word count solely because competitors have a certain length.
-
-If an editorial/content-team word-count standard exists, apply it as a team rule and label the source.
-
-## Internal linking plan
-
-Include:
-
-- Parent/category page if applicable
-- Relevant service/product page
-- Supporting content
-- Existing high-authority internal pages where useful
-
-Avoid forced anchors.
+Specify the depth needed to satisfy intent. Do not prescribe word count solely because competitors have a certain length.
 
 ## Missing context
 
-If required business facts are absent, list them under `MISSING_PROPERTY_CONTEXT` rather than fabricating them.
-
-## Output
-
-Return a structured brief suitable for writer/agent execution.
+If a required business fact or claim is absent, mark `MISSING_CLIENT_FACT` or `MISSING_PROPERTY_CONTEXT` instead of fabricating it.
 
 ## Handoff
 
-Send completed drafts to [51-seo-content-review.md](51-seo-content-review.md).
-
-For backlink-specific content use [35-backlink-content-generation.md](35-backlink-content-generation.md) instead.
+Send drafts to [51-seo-content-review.md](51-seo-content-review.md). For backlink content use the backlink content/publisher modules.

@@ -2,78 +2,75 @@
 
 ## Purpose
 
-Select the client page and anchor approach that best fits the opportunity and property priorities.
+Select the client target page and anchor approach based on relevance, business priority, existing link distribution, and property rules.
 
 ## Inputs
 
-Load:
+Load property context, approved keyword mapping when available, historical backlink data, and activity classification.
 
-- [04-property-context.md](04-property-context.md)
-- [15-keyword-validation-output.md](15-keyword-validation-output.md) when available
-- [33-backlink-activity-classification.md](33-backlink-activity-classification.md)
+## Target-page priority
+
+Use this default sequence unless the property overrides it:
+
+1. Relevant priority commercial/service/product page
+2. Relevant high-value informational/resource page
+3. Category/hub page when it is the true intent owner
+4. Homepage only when brand/homepage intent or publisher context justifies it
+
+Do not default every link to the homepage.
 
 ## Target-page checks
 
-Consider:
+Require:
 
-- Topical relevance to publisher content
-- Client business priority
-- Existing target keyword/page map
-- Current rankings
-- Existing backlink distribution
-- Page indexability/canonical status
-- Page intent
-- Whether the page is approved for external promotion
+- Strong topical fit with the surrounding external content
+- Live `200` destination unless a documented exception exists
+- Indexable/canonical target
+- Approved external-promotion status
+- No conflict with property exclusions
+- No unintended staging/parameter URL
 
-Do not point every backlink to the homepage.
+## Distribution checks
 
-## Target-page rejection
+Before selecting a target:
 
-Do not select a target URL that is:
-
-- Non-indexable
-- Redirecting/erroring
-- Canonicalized away unintentionally
-- Explicitly excluded by property context
-- Irrelevant to the planned content
-- Temporary/staging
+- Review historical links to the domain/property when available
+- Check over-concentration on one page
+- Check whether a new referring domain would add more value than another repeat placement
+- Consider current business/keyword priority
 
 ## Anchor categories
 
-Choose an appropriate category:
+Use:
 
-- Brand
-- Naked URL
-- Generic
-- Topic/relevance phrase
-- Partial match
-- Exact match only when approved and contextually justified
+- BRAND
+- NAKED_URL
+- GENERIC
+- TOPICAL_CONTEXTUAL
+- PARTIAL_MATCH
+- EXACT_MATCH
+
+Default toward brand, URL, generic, topical, and natural partial-match diversity.
+
+Exact-match anchors require explicit contextual justification and must not be repeated aggressively.
 
 ## Anchor decision factors
 
-Consider:
+Consider sentence fit, publisher guidelines, existing anchor distribution, target keyword strategy, activity type, and client restrictions.
 
-- Natural sentence fit
-- Existing anchor distribution if known
-- Publisher guidelines
-- Client restrictions
-- Link placement type
-- Topic of surrounding content
+## Reject target/anchor when
 
-Avoid repetitive aggressive exact-match patterns.
+- Target is non-indexable/redirect/error page
+- Link would be irrelevant to surrounding content
+- Anchor is misleading or spammy
+- Publisher forbids it
+- Property excludes the target page
+- Historical pattern shows excessive repeated exact-match use
 
 ## Output
 
-Return:
-
-- Target URL
-- Target-page reason
-- Anchor category
-- Proposed anchor concept/text if requested
-- Alternative target URL when useful
-- Risks/constraints
-- Approval status
+Return target URL, reason, anchor category/text, historical-distribution check, alternative URL when useful, risks, and approval status.
 
 ## Handoff
 
-Send approved planning data to [35-backlink-content-generation.md](35-backlink-content-generation.md) or directly to [37-backlink-outreach-submission.md](37-backlink-outreach-submission.md) when no content is required.
+Send to content generation or execution as required.

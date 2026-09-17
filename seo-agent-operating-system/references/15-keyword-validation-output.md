@@ -2,64 +2,69 @@
 
 ## Purpose
 
-Create the approved keyword research deliverable with traceable reasons and handoffs.
+Convert raw keyword research into an approved action set with explicit reasons.
 
-## Input
+## Inputs
 
-Accept organic output from [14-keyword-clustering-mapping.md](14-keyword-clustering-mapping.md), paid output from [12-paid-keyword-research.md](12-paid-keyword-research.md), or both.
+Use organic/paid research plus SERP/clustering outputs and property context.
 
-## Validation checklist
+## Validate every keyword/cluster
 
-For each keyword/cluster verify:
+Check:
 
-- Property relevance confirmed
-- Geography/language correct
-- Intent defined
-- Metric sources recorded
-- Existing rank/page checked where available
-- SERP evidence reviewed for priority organic terms
-- Target URL or landing-page gap defined
-- Cannibalization checked for organic
-- Paid and organic competition metrics not confused
-- Decision reason present
+- Business/property fit
+- Search intent
+- Target geography/language
+- Demand + source
+- Organic difficulty/provider when relevant
+- Paid competition/bid when relevant
+- Live SERP evidence for organic priorities
+- Existing rank/page
+- Landing-page fit
+- Conversion potential
+- Cannibalization risk
+- Content/resource requirement
 
-## Status values
+## Final statuses
 
 Use:
 
-- APPROVED_HIGH
-- APPROVED_MEDIUM
-- APPROVED_LOW
-- EXISTING_PAGE_OPTIMIZATION
-- NEW_PAGE_REQUIRED
-- CONTENT_SUPPORT
-- PAID_ONLY
-- ORGANIC_ONLY
-- HOLD
-- REJECTED
-- NEEDS_HUMAN_RULE
+- APPROVE_EXISTING_PAGE_OPTIMIZATION
+- APPROVE_NEW_PAGE
+- APPROVE_SUPPORTING_CONTENT
+- APPROVE_PAID
+- APPROVE_BOTH
+- HOLD_FUTURE
+- REJECT_IRRELEVANT
+- REJECT_INTENT_MISMATCH
+- REJECT_CANNIBALIZATION
+- REJECT_NO_VALID_LANDING_PAGE
+- REJECT_CLIENT_EXCLUSION
+- NEEDS_HUMAN_REVIEW
 
-## Rejection reasons
+## Priority
 
-Capture the real reason, such as:
+Classify High/Medium/Low using business impact and realistic opportunity, not search volume alone.
 
-- Irrelevant to business
-- Wrong geography
-- Wrong intent
-- No realistic landing-page fit
-- Duplicate/cannibalizing target
-- SERP type mismatch
-- Client excludes topic
-- Insufficient evidence
-- Other documented reason
+## Required output columns
 
-## Handoffs
+- Keyword/cluster
+- Organic/Paid/Both/Neither
+- Intent
+- Business relevance
+- Search volume + source
+- Organic KD + provider if applicable
+- Ads competition/bid if applicable
+- Existing rank/URL
+- Target URL/action
+- Priority
+- Reason
+- Human approval status
 
-Organic keyword clusters can feed:
+## Source conflicts
 
-- [50-seo-content-brief.md](50-seo-content-brief.md)
-- [22-onpage-content-audit.md](22-onpage-content-audit.md)
-- [23-architecture-internal-linking.md](23-architecture-internal-linking.md)
-- [34-backlink-target-anchor.md](34-backlink-target-anchor.md)
+Apply [16-keyword-data-source-priority.md](16-keyword-data-source-priority.md). Preserve conflicting provider metrics rather than averaging them.
 
-Paid keyword output should feed the approved paid-media workflow outside this skill if campaign execution is requested.
+## Handoff
+
+Approved organic clusters feed content/on-page/audit modules. Approved paid clusters feed the paid campaign workflow outside this skill when available.

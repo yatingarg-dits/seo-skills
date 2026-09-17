@@ -2,93 +2,69 @@
 
 ## Purpose
 
-Establish business context, access, scope, and baseline before crawling or recommending fixes.
+Prepare the business, access, and baseline data required before a full website audit.
 
-## Required inputs
+## Prerequisites
 
-Capture:
+Load [03-client-context.md](03-client-context.md), [04-property-context.md](04-property-context.md), and [28-audit-operating-sequence.md](28-audit-operating-sequence.md).
 
-- Property/domain
-- Business type
-- Main services/products
-- Target markets
-- Target audience
-- Conversion goals
-- Important landing pages
-- CMS/technology when known
-- Recent migration/redesign history
-- Known SEO issues
-- Development constraints
-- Main competitors
+## Business intake
 
-Load [04-property-context.md](04-property-context.md).
+Confirm:
 
-## Access checklist
+- Property/domain and production host
+- Priority products/services
+- Target markets/audience
+- Conversion actions
+- Priority landing pages
+- Recent migrations/redesigns/domain changes
+- Known SEO problems
+- Development/CMS constraints
+- Important competitors
 
-Record availability of:
+## Access/data intake
+
+Collect where available:
 
 - Google Search Console
 - GA4
 - Google Tag Manager
-- CMS
-- Server/log access if available
-- XML sitemap
+- CMS or crawl access as approved
+- XML sitemap(s)
 - robots.txt
-- Google Business Profile if local
-- Keyword tracking
-- Backlink tool/data
+- Keyword/rank tracking
+- Backlink data
 - Previous audits
-- Previous implementation sheets
+- Content/keyword maps
+- Local profile data when applicable
 
-Do not block the entire audit when an access item is missing. Mark the limitation.
+## Baseline
 
-## Baseline metrics
+Record date range and source for:
 
-Where available capture:
-
-- Organic sessions/users
-- Organic conversions/leads/revenue
-- GSC clicks
-- GSC impressions
-- GSC CTR
+- Organic clicks/impressions/CTR
+- Organic sessions/users when used
+- Organic conversions
+- Priority-page performance
 - Ranking distribution
-- Indexed-page count/trend
-- Important landing-page performance
+- Indexed/eligible URL observations
 - Referring domains/backlinks
-- Core Web Vitals status
+- Core Web Vitals/performance status where available
 
-Store date range and source with every baseline metric.
+## Data-quality checks
 
-## Scope definition
+Before diagnosing performance changes:
 
-Define:
-
-- Full site or section
-- Production/staging
-- Desktop/mobile focus
-- Country/language
-- Local/international scope
-- Crawl limits
-- Excluded URLs or environments
+- Confirm comparable date ranges
+- Check tracking changes/outages
+- Check seasonality/campaign shifts
+- Check migration/release dates
+- Separate branded/non-branded when relevant
 
 ## Output
 
-Produce:
-
-- Audit scope
-- Access matrix
-- Baseline table
-- Known constraints
-- Missing evidence list
-- Priority templates/pages to inspect
+Return audit scope, available/missing access, baseline metrics, priority templates/pages, known incidents, and blockers.
 
 ## Handoff
 
-Route to:
-
-- [21-technical-crawl-indexation.md](21-technical-crawl-indexation.md)
-- [22-onpage-content-audit.md](22-onpage-content-audit.md)
-- [23-architecture-internal-linking.md](23-architecture-internal-linking.md)
-- [24-performance-mobile-schema.md](24-performance-mobile-schema.md)
-- [25-local-international.md](25-local-international.md) when applicable
-- [26-analytics-tracking.md](26-analytics-tracking.md)
+Execute the audit using [28-audit-operating-sequence.md](28-audit-operating-sequence.md), then modules 21-27.

@@ -2,65 +2,70 @@
 
 ## Purpose
 
-Store domain/property-specific knowledge used for SEO, content, backlink, and listing decisions.
-
-Load [03-client-context.md](03-client-context.md) for client-wide context first.
+Store domain/property-specific knowledge used for keyword, audit, content, backlink, listing, and monitoring decisions.
 
 ## Property identity
 
 Capture:
 
 - Property/domain
-- Property purpose
-- Business unit/brand if different from client
-- Primary services/products on this property
-- Secondary services/products
-- Target audience for this property
-- B2B/B2C
+- Property purpose/business unit
+- Primary/secondary services/products
+- Target audience and B2B/B2C
 - Target industries
-- Target countries/cities
-- Languages
+- Target countries/cities/languages
 - Customer problems
-- Property-specific USP
+- Property USP
 - Direct competitors
 
 ## SEO context
 
 Capture:
 
-- Priority pages
-- Priority services
-- Existing keyword targets
-- Existing ranking pages
+- Priority pages and priority services
+- Existing keyword targets/ranking pages
 - Content clusters
 - Conversion actions
-- Local markets
-- International markets
-- Known SEO limitations
-- CMS/technology when relevant
+- Local/international markets
+- CMS/technology and known limitations
 
-## Backlink/content context
+## Target-link policy
 
 Capture:
 
-- Approved target URLs
-- Pages excluded from backlinking
-- Property-specific authors
-- Property-specific bios/signatures
-- Footer text
-- Approved property description
-- Approved URLs
+- Approved backlink target URLs
+- Priority target URLs by business objective
+- Pages excluded from external linking campaigns
+- Homepage-linking rule
+- Deep-linking preferences
+- Page-type restrictions
 - Anchor restrictions
-- Publisher relationship notes
-- Paid-link policy when property-specific
+- Maximum exact/partial-match constraints if agency/client defines them
+- Campaign-specific target-page priorities
 
-## Publishing context
+Use [34-backlink-target-anchor.md](34-backlink-target-anchor.md) for execution.
 
-Store property defaults only. Website-specific publisher requirements belong in [36-publisher-guidelines.md](36-publisher-guidelines.md).
+## Author and publishing identity
+
+Reference [05-author-brand-identity.md](05-author-brand-identity.md) for property-specific authors, bios, signatures, public profiles, and approved descriptions.
+
+## Content style
+
+Reference [06-client-content-style-rules.md](06-client-content-style-rules.md) for tone, claims, exclusions, and terminology.
+
+## Backlink policy
+
+Capture property-specific:
+
+- Free/paid/exchange permission
+- Restricted backlink activities
+- Preferred/refused publisher categories
+- Historical publisher relationship notes
+- Target geography/audience priorities
 
 ## Missing data behavior
 
-If a task requires a property fact that is absent:
+If a task requires an absent property fact:
 
 1. Do not fabricate it.
 2. Mark `MISSING_PROPERTY_CONTEXT`.
@@ -69,15 +74,4 @@ If a task requires a property fact that is absent:
 
 ## Updates
 
-Record:
-
-- Changed field
-- Old value
-- New value
-- Changed by
-- Date
-- Reason
-
-## Handoffs
-
-This context can be loaded by keyword, audit, backlink, business-listing, content, and monitoring modules.
+Record changed field, old/new value, changed by, date, and reason.

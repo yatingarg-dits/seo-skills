@@ -1,6 +1,6 @@
 ---
 name: seo-agent-operating-system
-description: Modular SEO operating system for experienced digital marketing teams. Use when ChatGPT must perform or document SEO keyword research, paid keyword research, website audits, backlink discovery and qualification, off-page SEO activities, backlink content and publishing workflows, business listings, SEO content workflows, indexing, monitoring, or human-feedback learning. Route every task to the smallest relevant module, preserve platform versus client/property context, and never invent missing thresholds or client rules.
+description: Modular SEO operating system for experienced digital marketing teams. Use when ChatGPT must perform or document SEO keyword research, paid keyword research, website audits, backlink discovery and qualification, backlink content and publishing workflows, business listings, SEO content workflows, indexing, monitoring, or human-feedback learning. Route every task to the smallest relevant module, preserve platform, agency, client, property, activity, and publisher context, and use configured defaults/overrides rather than inventing missing client facts.
 ---
 
 # SEO Agent Operating System
@@ -9,76 +9,59 @@ Use this skill as a router. Load only the modules required for the current task.
 
 ## Core operating rules
 
-1. Keep **platform rules**, **agency overrides**, and **client/property context** separate.
-2. Treat each materially different source, decision process, or execution path as a separate module.
+1. Keep platform, agency, client, property, activity, and publisher rules separate.
+2. Treat materially different data sources, decisions, or execution paths as separate modules.
 3. Do not merge business listings into backlinks.
-4. Do not merge backlink discovery, qualification, content, execution, verification, and feedback into one step.
-5. Do not merge organic keyword difficulty with paid advertising competition.
-6. Prefer real team rules and examples over generic SEO assumptions.
-7. If a required threshold, credential rule, client preference, or site-specific guideline is missing, return `NEEDS_HUMAN_RULE` instead of inventing it.
-8. Record rejection reasons, not only accept/reject outcomes.
-9. Keep backlink-quality feedback separate from content-quality feedback.
-10. Use human feedback to improve future recommendations; do not silently override approved rules.
+4. Keep backlink discovery, historical memory, qualification, commercial/access status, activity classification, target/anchor, content, execution, verification, and feedback traceable.
+5. Do not merge organic keyword difficulty with paid advertiser competition.
+6. Use the v1 platform defaults where defined, then apply approved lower-level overrides.
+7. Never fabricate client facts, author identities, publisher rules, credentials, or unsupported claims.
+8. Record rejection/failure reasons and human feedback.
 
-## Context layers
+## Context route
 
-Load these first when needed:
+Load as needed:
 
-- [00-skill-map.md](references/00-skill-map.md) - complete routing map.
-- [01-platform-seo-context.md](references/01-platform-seo-context.md) - generic operating rules.
-- [02-agency-seo-overrides.md](references/02-agency-seo-overrides.md) - approved agency-level overrides.
-- [03-client-context.md](references/03-client-context.md) - client-wide business and brand context.
-- [04-property-context.md](references/04-property-context.md) - domain/property-specific SEO context.
+- [00-skill-map.md](references/00-skill-map.md)
+- [01-platform-seo-context.md](references/01-platform-seo-context.md)
+- [02-agency-seo-overrides.md](references/02-agency-seo-overrides.md)
+- [03-client-context.md](references/03-client-context.md)
+- [04-property-context.md](references/04-property-context.md)
+- [05-author-brand-identity.md](references/05-author-brand-identity.md)
+- [06-client-content-style-rules.md](references/06-client-content-style-rules.md)
 
 ## Keyword research route
 
-For organic research:
-`10-keyword-intake` -> `11-organic-keyword-research` -> `13-serp-competitor-analysis` -> `14-keyword-clustering-mapping` -> `15-keyword-validation-output`
+Organic:
+`10-keyword-intake` -> `16-keyword-data-source-priority` -> optional `17-keyword-api-integration` -> `11-organic-keyword-research` -> `13-serp-competitor-analysis` -> `14-keyword-clustering-mapping` -> `15-keyword-validation-output`
 
-For paid research:
-`10-keyword-intake` -> `12-paid-keyword-research` -> `15-keyword-validation-output`
+Paid:
+`10-keyword-intake` -> `16-keyword-data-source-priority` -> optional `17-keyword-api-integration` -> `12-paid-keyword-research` -> `15-keyword-validation-output`
 
 ## Website audit route
 
-`20-audit-intake-baseline` -> `21-technical-crawl-indexation` -> `22-onpage-content-audit` -> `23-architecture-internal-linking` -> `24-performance-mobile-schema` -> optional `25-local-international` -> `26-analytics-tracking` -> `27-audit-prioritization-qa`
+`20-audit-intake-baseline` -> `28-audit-operating-sequence` -> `21-26` as applicable -> `27-audit-prioritization-qa` -> `53-indexing-monitoring`
 
-## Off-page and backlink route
+Use `29-audit-example-output` only for output-format examples, never as client evidence.
 
-Start with [59-offpage-activity-map.md](references/59-offpage-activity-map.md) when the requested activity is one of the team's defined off-page activities.
+## Backlink route
 
-For external opportunities that create or may create a backlink:
-`30-backlink-discovery` and/or `31-community-link-intake` -> `32-backlink-qualification` -> `33-backlink-activity-classification` -> relevant activity file `60-83` -> target/content/publisher steps as required -> `37-backlink-outreach-submission` when applicable -> `38-backlink-verification-monitoring` -> `39-backlink-feedback-learning`
+For external link opportunities:
 
-Use [60-link-building.md](references/60-link-building.md) for the overall acquisition strategy and [72-backlinks.md](references/72-backlinks.md) for link-level execution/recording.
+`30/31 discovery` -> `44 historical backlink check` -> `32 qualification` -> `42 commercial/access classification` -> `33 activity classification` -> relevant activity `60-83` -> `34 target/anchor` and `35/36 content/publisher` as needed -> `37 execution` -> `38 verification` -> `44 history update` -> `39 feedback`
+
+Use `43-backlink-benchmark-capacity` for planning capacity, never as a reason to lower quality.
+
+Use `45-publisher-rule-hackernoon` when HackerNoon is the publisher; revalidate before submission.
 
 ## Business listing route
 
-Use [61-business-listing.md](references/61-business-listing.md) as the activity controller, then `40-business-listing-discovery` -> `41-business-listing-execution`.
-
-Do not route business listings through generic backlink execution merely because a citation or link may be created.
-
-## Indexing/discovery off-page activities
-
-Use [62-ping-submission.md](references/62-ping-submission.md) and [68-search-engine-submission.md](references/68-search-engine-submission.md) with `53-indexing-monitoring` rather than treating them as backlink-building activities.
+`61-business-listing` -> `40-business-listing-discovery` -> `41-business-listing-execution`.
 
 ## SEO content route
 
-`50-seo-content-brief` -> `51-seo-content-review` -> `52-onpage-implementation-publishing` -> `53-indexing-monitoring`
-
-For backlink-specific content, prefer `35-backlink-content-generation` plus `36-publisher-guidelines`.
+`50-seo-content-brief` -> `51-seo-content-review` -> `52-onpage-implementation-publishing` -> `53-indexing-monitoring`.
 
 ## Output discipline
 
-For every module, preserve:
-
-- Input source
-- Date checked
-- Client/property
-- Decision
-- Evidence
-- Reason
-- Action
-- Human review status
-- Next module/handoff
-
-When a task spans multiple modules, execute them sequentially and keep intermediate outputs traceable.
+Preserve source, date, client/property, decision, evidence, reason, action, human-review status, and handoff.

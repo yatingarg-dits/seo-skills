@@ -2,49 +2,59 @@
 
 ## Purpose
 
-Store generic agency/platform SEO rules that apply across clients. Do not place client-specific facts here.
+Store generic platform SEO rules that apply across clients. Do not place client-specific facts here.
 
-## Required platform rules
+## Context hierarchy
 
-Capture approved rules for:
+Use:
 
-- Supported SEO activities
-- Approved/free/paid tools
-- Allowed data sources
-- Minimum evidence required before a decision
-- Metric definitions and source priority
+`Platform -> Agency override -> Client -> Property -> Activity/Publisher`
+
+Lower layers may narrow or override only where the higher-level rule allows it.
+
+## Platform default rule groups
+
+Capture approved defaults for:
+
+- Supported SEO/off-page activities
+- Approved/free/paid tools and integrations
+- Keyword data-source priority
+- Backlink qualification thresholds
+- Backlink commercial classification
+- Capacity/benchmark planning
 - Human approval points
 - Rejection reason taxonomy
 - Naming conventions
 - Output schemas
-- Compliance or link-building boundaries
+- Search/publisher policy boundaries
 - Escalation conditions
 - Feedback fields
 
-## Context separation
+## Current v1 defaults
 
-Use this hierarchy:
+Use these modules as the current platform defaults unless an approved lower layer overrides them:
 
-`Platform -> Agency override -> Client -> Property`
+- Keyword source priority: [16-keyword-data-source-priority.md](16-keyword-data-source-priority.md)
+- Keyword APIs/integrations: [17-keyword-api-integration.md](17-keyword-api-integration.md)
+- Backlink qualification: [32-backlink-qualification.md](32-backlink-qualification.md)
+- Commercial/access classification: [42-backlink-commercial-classification.md](42-backlink-commercial-classification.md)
+- Capacity benchmarks: [43-backlink-benchmark-capacity.md](43-backlink-benchmark-capacity.md)
+- Historical backlink memory: [44-historical-backlink-database.md](44-historical-backlink-database.md)
 
-If a lower layer conflicts with a higher layer, do not assume which wins unless an approved override rule exists.
+## Metric/source rule
 
-Return `NEEDS_HUMAN_RULE` when conflict resolution is undefined.
-
-## Tool/data rule
-
-For every metric store the source, because values differ by provider.
+For every metric store its source/date because values differ by provider.
 
 Examples:
 
 - Search volume + source
-- Organic difficulty + source
-- Paid competition + source
+- Organic difficulty + provider
+- Paid competition + Google Ads source
 - DA/PA/Spam Score + source
-- Organic traffic estimate + source
+- Organic traffic estimate + provider/date
 - Rank + source/date/location/device when relevant
 
-Do not compare differently defined metrics as if they are identical.
+Do not compare differently defined metrics as if identical.
 
 ## Decision rule format
 
@@ -52,24 +62,18 @@ Represent important rules as:
 
 `IF <condition> THEN <action> BECAUSE <reason> ELSE <next check>`
 
-Example structure only:
-
-`IF site is irrelevant to client niche THEN reject BECAUSE audience mismatch ELSE continue qualification.`
-
-Do not invent numeric cutoffs that the team has not approved.
-
 ## Human control
 
 Keep humans responsible for:
 
-- Strategy changes
 - New thresholds
+- Strategy changes
 - Exceptions
-- Final approval where configured
-- Risky link decisions
-- Client-positioning changes
+- Risky/paid link approvals where configured
+- Client positioning/claims
 - Sensitive publisher relationships
+- Global rule changes from feedback
 
 ## Handoff
 
-Load [04-property-context.md](04-property-context.md) before producing client-specific recommendations.
+Load client/property context before client-specific recommendations.

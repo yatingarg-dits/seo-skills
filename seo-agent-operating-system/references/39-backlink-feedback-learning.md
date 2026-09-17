@@ -2,9 +2,9 @@
 
 ## Purpose
 
-Capture human feedback in a structured way so future off-page/backlink recommendations improve without mixing website-quality feedback with content-quality feedback.
+Capture human feedback so recommendations improve without mixing website quality, commercial/access state, content quality, and publisher rules.
 
-## Feedback stream 1: backlink/platform recommendation
+## Feedback stream 1 - backlink recommendation
 
 Use statuses such as:
 
@@ -20,11 +20,11 @@ Use statuses such as:
 - WRONG_ACTIVITY_TYPE
 - OTHER
 
-Capture domain/platform/opportunity, activity type, original recommendation, human decision, reason, date, reviewer, and whether a rule should change.
+Capture domain/opportunity, original recommendation, human decision, reason, reviewer/date, and whether a rule should change.
 
-## Feedback stream 2: content recommendation
+## Feedback stream 2 - content recommendation
 
-Use statuses such as:
+Use:
 
 - GOOD
 - MINOR_EDIT
@@ -37,48 +37,38 @@ Use statuses such as:
 - FACTUAL_CONTEXT_ERROR
 - REJECT
 
-Capture content reference, publisher/platform, activity type, original content type, human decision, edit/rejection reason, date, and reviewer.
+Capture exact edit/rejection reason.
 
-## Rule updates
+## Feedback stream 3 - operational state
 
-Do not automatically convert one person's one-off feedback into a global platform rule.
+Capture changes such as:
+
+- Site moved from free to paid
+- Price changed
+- Registration closed
+- Credentials invalid
+- Publisher rules changed
+- Website unavailable
+- Link removed/lost
+
+Update [42-backlink-commercial-classification.md](42-backlink-commercial-classification.md), [36-publisher-guidelines.md](36-publisher-guidelines.md), or [44-historical-backlink-database.md](44-historical-backlink-database.md) as appropriate.
+
+## Rule update scope
 
 Classify feedback as:
 
 - Single-opportunity exception
-- Activity-specific rule
-- Publisher/platform-specific rule
+- Publisher-specific rule
 - Client/property rule
 - Agency override
 - Platform-wide rule candidate
 
-Require the configured human approval level before updating higher-level context.
+Do not turn one-off feedback into a global rule automatically.
 
 ## Paid-site handling
 
-If a site is confirmed paid:
-
-- Move/classify it into the paid pool.
-- Do not recommend it for free-only tasks.
-- Keep it available for future paid requests when otherwise qualified.
-
-Do not permanently blacklist a legitimate paid site merely because a free workflow rejected it.
-
-## Closed-loop handoff
-
-Approved rule changes should update the relevant module/context:
-
-- Discovery source rules -> 30/31
-- Qualification rules -> 32
-- Activity classification -> 33
-- Target/anchor rules -> 34
-- Content rules -> 35
-- Publisher rules -> 36
-- Execution rules -> 37
-- Monitoring rules -> 38
-- Activity-specific process -> relevant file in [59-offpage-activity-map.md](59-offpage-activity-map.md)
-- Property rules -> [04-property-context.md](04-property-context.md)
+Move legitimate paid sites to the paid pool. Do not recommend them for free-only tasks and do not blacklist them solely because payment is required.
 
 ## Auditability
 
-Keep original recommendation, human feedback, and resulting rule change traceable. Never overwrite history without a record.
+Keep original recommendation, feedback, resulting operational update, and approver traceable.

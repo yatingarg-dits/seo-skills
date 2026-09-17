@@ -4,37 +4,36 @@
 
 Store context shared across all properties/websites belonging to the same client.
 
-Do not place domain-specific technical or keyword information here when it applies to only one property.
+Do not place domain-specific technical or keyword data here when it applies to one property only.
 
 ## Client identity
 
 Capture:
 
 - Client name
-- Parent organization/brand when relevant
+- Parent organization/brand
 - Business model
-- Primary products/services
-- Secondary products/services
-- Main target audiences
-- Main industries
-- Main markets/geographies
-- Languages
+- Primary/secondary products/services
+- Main audiences and industries
+- Main markets/geographies/languages
 - Core differentiators
 - Business priorities
-- Competitors at company level
+- Company-level competitors
 
 ## Brand and communication context
 
-Capture:
+Reference [06-client-content-style-rules.md](06-client-content-style-rules.md) and capture:
 
 - Brand positioning
 - Approved company description
-- Tone/voice rules
-- Claims allowed
-- Claims/topics to avoid
-- Legal/compliance restrictions when supplied
-- Approved authors/spokespeople
-- Shared author bios/signatures
+- Tone/voice
+- Approved/prohibited claims
+- Preferred/restricted terminology
+- Legal/compliance restrictions supplied by client
+
+## Author/identity context
+
+Reference [05-author-brand-identity.md](05-author-brand-identity.md) and store approved client-wide authors, bios, signatures, logos, public profiles, and boilerplate.
 
 ## Commercial/SEO context
 
@@ -43,20 +42,16 @@ Capture:
 - Priority service lines
 - Lead/conversion definitions
 - Paid/free backlink policy
-- Markets to prioritize
-- Markets/topics excluded
+- Markets to prioritize/exclude
 - Strategic content themes
+- Default external-publishing approval level
 
 ## Multiple properties
 
-A client may own multiple properties. Keep a separate [04-property-context.md](04-property-context.md) record for each domain/property.
+Maintain a separate [04-property-context.md](04-property-context.md) record per domain/property.
 
-Never assume all properties target the same keywords, countries, audiences, or conversion actions.
+Never assume all properties target the same pages, keywords, audiences, markets, authors, or conversion actions.
 
 ## Missing data
 
 Mark missing required client facts as `MISSING_CLIENT_CONTEXT`. Do not fabricate them.
-
-## Handoff
-
-Load this file together with [04-property-context.md](04-property-context.md) for client-specific keyword, audit, backlink, listing, or content work.

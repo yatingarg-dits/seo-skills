@@ -1,75 +1,71 @@
-# Audit Prioritization, Implementation QA, and Monitoring
+# Audit Prioritization and QA
 
 ## Purpose
 
-Turn audit findings into an executable backlog, verify implementation, and close the feedback loop.
+Turn audit findings into executable work, verify fixes, and prevent tool severity from replacing SEO/business judgment.
 
-## Required finding fields
+## Required issue fields
 
-Every finding should contain:
+For every finding capture:
 
 - Issue
-- URL/template
-- Evidence
-- Impact
+- Affected URL/template/scope
+- Evidence/source/date
+- Business/SEO impact
 - Severity
 - Recommendation
 - Owner
 - Effort
 - Dependency
 - Status
-- Date checked
-- QA result
+- QA method/result
 
-## Severity logic
+## Severity defaults
 
-Use platform-approved definitions. If none exist, use these categories qualitatively and flag that thresholds require approval:
+### CRITICAL
 
-- Critical: major crawl/indexing/availability or sitewide failure
-- High: material ranking/traffic/conversion risk or opportunity
-- Medium: meaningful improvement with lower urgency
-- Low: cleanup/minor optimization
+Use for issues that can block/seriously damage crawling, indexation, production availability, canonical ownership, or measurement across important sections.
 
-Do not assign severity from tool labels alone.
+### HIGH
 
-## Prioritization factors
+Use for major priority-page/sitewide issues with clear traffic/conversion/ranking risk or major missed opportunity.
 
-Consider together:
+### MEDIUM
 
-- Business importance
-- Number/value of affected pages
-- Crawl/indexing impact
-- Ranking/traffic impact
-- Conversion impact
-- Implementation effort
-- Dependency/blocker
-- Risk of change
-- Evidence confidence
+Use for meaningful but non-blocking issues or growth opportunities.
 
-## Ownership
+### LOW
 
-Assign where possible:
+Use for cleanup/minor optimization with limited expected impact.
 
-- SEO
-- Developer
-- Content
-- Design/UX
-- Analytics
-- Client/business owner
+## Prioritization logic
 
-## QA after implementation
+Prefer:
 
-Recheck the actual fix:
+1. Index/crawl blockers
+2. Severe sitewide technical errors
+3. Conversion/tracking data loss
+4. Canonical/redirect/indexation errors at scale
+5. Priority commercial-page issues
+6. Architecture/internal-linking issues
+7. Performance/mobile/schema issues
+8. Growth/content opportunities
+9. Low-impact cleanup
 
-- Re-crawl affected URLs
-- Inspect source/rendered output
-- Test redirects
-- Test canonicals
-- Test robots/noindex
-- Validate sitemap changes
-- Validate structured data
-- Test mobile rendering
-- Recheck performance when relevant
+Adjust using property business priorities.
+
+## Effort and dependency
+
+Record effort `LOW/MEDIUM/HIGH` and blockers such as developer release, content rewrite, design, analytics access, legal/client approval, or migration dependency.
+
+## QA
+
+After implementation:
+
+- Re-crawl/retest exact issue
+- Recheck source/rendered output
+- Verify redirects/canonicals/robots as relevant
+- Validate schema/performance/mobile as relevant
 - Verify internal links
 - Verify analytics/conversions
 - Inspect important URLs in Search Console when available
@@ -87,10 +83,14 @@ Use:
 - REJECTED_WITH_REASON
 - DEFERRED_WITH_REASON
 
+## Evidence rule
+
+Do not close from verbal confirmation alone. Keep before/after evidence when practical.
+
+## Example format
+
+Use [29-audit-example-output.md](29-audit-example-output.md) for representative examples only.
+
 ## Monitoring handoff
 
-For implemented items, send relevant URLs/metrics to [53-indexing-monitoring.md](53-indexing-monitoring.md).
-
-## Feedback rule
-
-When QA fails, record the failure reason and reopen the exact finding. Do not create an untraceable duplicate task.
+Send implemented priority URLs/metrics to [53-indexing-monitoring.md](53-indexing-monitoring.md).
