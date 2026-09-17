@@ -1,0 +1,108 @@
+# Business Listing Execution and Maintenance
+
+## Purpose
+
+Create, claim, correct, verify, and maintain approved business listings using property-approved business data.
+
+## Inputs
+
+Load:
+
+- Qualified platform from [40-business-listing-discovery.md](40-business-listing-discovery.md)
+- [04-property-context.md](04-property-context.md)
+
+## Prepare listing data
+
+Use approved property data only:
+
+- Business name
+- Primary/secondary category
+- Description
+- Address or service area
+- Phone
+- Website URL
+- Email when approved
+- Opening hours
+- Logo/images
+- Social profiles
+- Services/products
+
+If a required field is missing, mark `MISSING_PROPERTY_CONTEXT`.
+
+## Execution modes
+
+Classify:
+
+- Create new listing
+- Claim existing listing
+- Correct existing listing
+- Remove/merge duplicate
+- Verify listing
+- Update listing
+- Paid listing requiring approval
+
+## Submission
+
+Before submit:
+
+- Match business name to approved format
+- Use correct category
+- Use correct canonical website URL
+- Check NAP consistency where applicable
+- Avoid keyword stuffing business name/description
+- Follow platform field limits/rules
+- Store account/credential reference in approved credential system
+
+## Verification
+
+Record method:
+
+- Email
+- Phone/SMS
+- Postcard
+- Video
+- Document
+- Manual review
+- Other platform method
+
+Do not claim verification is complete until confirmed.
+
+## Post-live checks
+
+Verify:
+
+- Listing loads
+- Business details correct
+- Website link correct
+- Category correct
+- Duplicate listing not created
+- Images/profile display acceptably
+- Public URL stored
+
+## Maintenance
+
+Track:
+
+- Last checked date
+- Listing status
+- Detail changes
+- Platform policy changes
+- Reviews/ratings only when this workflow owns them
+- Broken website link
+- Duplicate/new listing appearance
+
+## Output status
+
+Use:
+
+- CREATED_PENDING_VERIFICATION
+- LIVE_VERIFIED
+- CLAIM_PENDING
+- CORRECTION_PENDING
+- DUPLICATE_ACTION_REQUIRED
+- PAID_APPROVAL_REQUIRED
+- FAILED_WITH_REASON
+
+## Handoff
+
+Send operational feedback to [39-backlink-feedback-learning.md](39-backlink-feedback-learning.md) only when it affects shared source/quality rules; otherwise update listing-specific records and [53-indexing-monitoring.md](53-indexing-monitoring.md) when listing visibility is monitored.
