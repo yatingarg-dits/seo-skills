@@ -2,6 +2,8 @@
 
 ## Purpose
 
+Use [61-business-listing.md](61-business-listing.md) as the end-to-end activity controller.
+
 Discover and qualify business listing/citation platforms as a separate workflow from backlink research.
 
 A listing may create a link, but its data requirements and execution logic are different from guest posts or editorial backlinks.
@@ -49,13 +51,7 @@ Do not approve a listing solely because it has high DA or creates a link.
 
 ## Existing-listing check
 
-Search for:
-
-- Exact business name
-- Name variants
-- Address variants
-- Phone variants
-- Domain
+Search for exact business name, name variants, address variants, phone variants, and domain.
 
 Classify:
 
@@ -89,18 +85,7 @@ Do not invent missing client details.
 
 ## Output
 
-Return:
-
-- Platform/domain
-- Listing URL or submission URL
-- Source
-- Market/niche
-- Free/paid
-- Existing-listing status
-- Verification method
-- Required fields
-- Qualification decision
-- Reason
+Return platform/domain, listing/submission URL, source, market/niche, free/paid, existing-listing status, verification method, required fields, qualification decision, and reason.
 
 ## Handoff
 

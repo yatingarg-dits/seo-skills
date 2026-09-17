@@ -6,6 +6,8 @@ Monitor website landing pages/content after publication or SEO implementation an
 
 Backlink-page verification remains in [38-backlink-verification-monitoring.md](38-backlink-verification-monitoring.md).
 
+For explicit submission/discovery actions, use [62-ping-submission.md](62-ping-submission.md) or [68-search-engine-submission.md](68-search-engine-submission.md) before monitoring.
+
 ## Inputs
 
 Accept:
@@ -73,8 +75,6 @@ Use team-approved timing thresholds. If none exist, flag `NEEDS_HUMAN_RULE` rath
 
 ## Diagnosis route
 
-Route issues to the relevant module:
-
 - Crawl/index issue -> [21-technical-crawl-indexation.md](21-technical-crawl-indexation.md)
 - Content/intent issue -> [22-onpage-content-audit.md](22-onpage-content-audit.md)
 - Internal-link issue -> [23-architecture-internal-linking.md](23-architecture-internal-linking.md)
@@ -84,15 +84,4 @@ Route issues to the relevant module:
 
 ## Output
 
-Return:
-
-- URL
-- Monitoring period
-- Indexing status
-- Ranking summary
-- Traffic/conversion summary
-- Change detected
-- Evidence
-- Diagnosis route
-- Recommended action
-- Human review status
+Return URL, monitoring period, indexing status, ranking summary, traffic/conversion summary, change detected, evidence, diagnosis route, recommended action, and human review status.

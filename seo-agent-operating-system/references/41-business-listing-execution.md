@@ -2,6 +2,8 @@
 
 ## Purpose
 
+Use [61-business-listing.md](61-business-listing.md) as the end-to-end activity controller.
+
 Create, claim, correct, verify, and maintain approved business listings using property-approved business data.
 
 ## Inputs
@@ -45,13 +47,13 @@ Classify:
 
 Before submit:
 
-- Match business name to approved format
-- Use correct category
-- Use correct canonical website URL
-- Check NAP consistency where applicable
-- Avoid keyword stuffing business name/description
-- Follow platform field limits/rules
-- Store account/credential reference in approved credential system
+- Match business name to approved format.
+- Use correct category.
+- Use correct canonical website URL.
+- Check NAP consistency where applicable.
+- Avoid keyword stuffing business name/description.
+- Follow platform field limits/rules.
+- Store account/credential reference in approved credential system.
 
 ## Verification
 
@@ -69,27 +71,11 @@ Do not claim verification is complete until confirmed.
 
 ## Post-live checks
 
-Verify:
-
-- Listing loads
-- Business details correct
-- Website link correct
-- Category correct
-- Duplicate listing not created
-- Images/profile display acceptably
-- Public URL stored
+Verify listing loads, business details, website link, category, duplicate status, images/profile display, and public URL.
 
 ## Maintenance
 
-Track:
-
-- Last checked date
-- Listing status
-- Detail changes
-- Platform policy changes
-- Reviews/ratings only when this workflow owns them
-- Broken website link
-- Duplicate/new listing appearance
+Track last checked date, listing status, detail changes, platform policy changes, broken website link, and duplicate/new listing appearance.
 
 ## Output status
 

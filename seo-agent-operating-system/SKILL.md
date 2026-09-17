@@ -1,6 +1,6 @@
 ---
 name: seo-agent-operating-system
-description: Modular SEO operating system for experienced digital marketing teams. Use when ChatGPT must perform or document SEO keyword research, paid keyword research, website audits, backlink discovery and qualification, backlink content and publishing workflows, business listings, SEO content workflows, indexing, monitoring, or human-feedback learning. Route every task to the smallest relevant module, preserve platform versus client/property context, and never invent missing thresholds or client rules.
+description: Modular SEO operating system for experienced digital marketing teams. Use when ChatGPT must perform or document SEO keyword research, paid keyword research, website audits, backlink discovery and qualification, off-page SEO activities, backlink content and publishing workflows, business listings, SEO content workflows, indexing, monitoring, or human-feedback learning. Route every task to the smallest relevant module, preserve platform versus client/property context, and never invent missing thresholds or client rules.
 ---
 
 # SEO Agent Operating System
@@ -42,16 +42,24 @@ For paid research:
 
 `20-audit-intake-baseline` -> `21-technical-crawl-indexation` -> `22-onpage-content-audit` -> `23-architecture-internal-linking` -> `24-performance-mobile-schema` -> optional `25-local-international` -> `26-analytics-tracking` -> `27-audit-prioritization-qa`
 
-## Backlink route
+## Off-page and backlink route
 
-Discovery may start from Google, competitor research, historical databases, or communities:
-`30-backlink-discovery` and/or `31-community-link-intake` -> `32-backlink-qualification` -> `33-backlink-activity-classification` -> `34-backlink-target-anchor` -> `35-backlink-content-generation` -> `36-publisher-guidelines` -> `37-backlink-outreach-submission` -> `38-backlink-verification-monitoring` -> `39-backlink-feedback-learning`
+Start with [59-offpage-activity-map.md](references/59-offpage-activity-map.md) when the requested activity is one of the team's defined off-page activities.
+
+For external opportunities that create or may create a backlink:
+`30-backlink-discovery` and/or `31-community-link-intake` -> `32-backlink-qualification` -> `33-backlink-activity-classification` -> relevant activity file `60-83` -> target/content/publisher steps as required -> `37-backlink-outreach-submission` when applicable -> `38-backlink-verification-monitoring` -> `39-backlink-feedback-learning`
+
+Use [60-link-building.md](references/60-link-building.md) for the overall acquisition strategy and [72-backlinks.md](references/72-backlinks.md) for link-level execution/recording.
 
 ## Business listing route
 
-`40-business-listing-discovery` -> `41-business-listing-execution`
+Use [61-business-listing.md](references/61-business-listing.md) as the activity controller, then `40-business-listing-discovery` -> `41-business-listing-execution`.
 
-Do not route business listings through backlink execution merely because a citation or link may be created.
+Do not route business listings through generic backlink execution merely because a citation or link may be created.
+
+## Indexing/discovery off-page activities
+
+Use [62-ping-submission.md](references/62-ping-submission.md) and [68-search-engine-submission.md](references/68-search-engine-submission.md) with `53-indexing-monitoring` rather than treating them as backlink-building activities.
 
 ## SEO content route
 

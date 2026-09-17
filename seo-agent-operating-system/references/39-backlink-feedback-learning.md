@@ -2,9 +2,9 @@
 
 ## Purpose
 
-Capture human feedback in a structured way so future backlink recommendations improve without mixing website-quality feedback with content-quality feedback.
+Capture human feedback in a structured way so future off-page/backlink recommendations improve without mixing website-quality feedback with content-quality feedback.
 
-## Feedback stream 1: backlink recommendation
+## Feedback stream 1: backlink/platform recommendation
 
 Use statuses such as:
 
@@ -20,15 +20,7 @@ Use statuses such as:
 - WRONG_ACTIVITY_TYPE
 - OTHER
 
-Capture:
-
-- Domain/opportunity
-- Original recommendation
-- Human decision
-- Reason
-- Date
-- Reviewer
-- Whether rule should change
+Capture domain/platform/opportunity, activity type, original recommendation, human decision, reason, date, reviewer, and whether a rule should change.
 
 ## Feedback stream 2: content recommendation
 
@@ -45,15 +37,7 @@ Use statuses such as:
 - FACTUAL_CONTEXT_ERROR
 - REJECT
 
-Capture:
-
-- Content reference
-- Publisher
-- Original content type
-- Human decision
-- Edit/rejection reason
-- Date
-- Reviewer
+Capture content reference, publisher/platform, activity type, original content type, human decision, edit/rejection reason, date, and reviewer.
 
 ## Rule updates
 
@@ -62,7 +46,8 @@ Do not automatically convert one person's one-off feedback into a global platfor
 Classify feedback as:
 
 - Single-opportunity exception
-- Publisher-specific rule
+- Activity-specific rule
+- Publisher/platform-specific rule
 - Client/property rule
 - Agency override
 - Platform-wide rule candidate
@@ -73,9 +58,9 @@ Require the configured human approval level before updating higher-level context
 
 If a site is confirmed paid:
 
-- Move/classify it into the paid pool
-- Do not recommend it for free-only tasks
-- Keep it available for future paid requests when otherwise qualified
+- Move/classify it into the paid pool.
+- Do not recommend it for free-only tasks.
+- Keep it available for future paid requests when otherwise qualified.
 
 Do not permanently blacklist a legitimate paid site merely because a free workflow rejected it.
 
@@ -85,12 +70,13 @@ Approved rule changes should update the relevant module/context:
 
 - Discovery source rules -> 30/31
 - Qualification rules -> 32
-- Activity rules -> 33
+- Activity classification -> 33
 - Target/anchor rules -> 34
 - Content rules -> 35
 - Publisher rules -> 36
 - Execution rules -> 37
 - Monitoring rules -> 38
+- Activity-specific process -> relevant file in [59-offpage-activity-map.md](59-offpage-activity-map.md)
 - Property rules -> [04-property-context.md](04-property-context.md)
 
 ## Auditability

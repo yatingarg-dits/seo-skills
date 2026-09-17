@@ -35,20 +35,20 @@ Use this map to select the smallest relevant skill file and preserve handoffs.
 | `26-analytics-tracking.md` | GA4/GTM/GSC/conversion tracking validation | 27 |
 | `27-audit-prioritization-qa.md` | Prioritize, assign, verify fixes, monitor | 53 |
 
-## Backlinks
+## Backlink shared workflow
 
 | File | Responsibility | Feeds |
 |---|---|---|
 | `30-backlink-discovery.md` | Find candidate domains/URLs from approved sources | 32 |
 | `31-community-link-intake.md` | Process Telegram/Slack/Facebook/shared-sheet inputs | 32 |
 | `32-backlink-qualification.md` | DA/PA/SS, audience, traffic, relevance, quality, risk | 33 |
-| `33-backlink-activity-classification.md` | Decide guest post/profile/article/outreach/etc. | 34/35/37 |
-| `34-backlink-target-anchor.md` | Select client target URL and anchor approach | 35 |
-| `35-backlink-content-generation.md` | Create proposed backlink content from context | 36/37 |
-| `36-publisher-guidelines.md` | Apply site-specific publishing rules | 35/37 |
-| `37-backlink-outreach-submission.md` | Execute outreach, registration, submission, publishing | 38 |
+| `33-backlink-activity-classification.md` | Decide exact off-page/backlink activity | 59/60-83 |
+| `34-backlink-target-anchor.md` | Select client target URL and anchor approach | 35/activity |
+| `35-backlink-content-generation.md` | Create proposed backlink content from context | 36/37/activity |
+| `36-publisher-guidelines.md` | Apply site-specific publishing rules | 35/37/activity |
+| `37-backlink-outreach-submission.md` | Execute shared outreach/registration/submission mechanics | 38 |
 | `38-backlink-verification-monitoring.md` | Verify live/indexed/link attributes and monitor | 39 |
-| `39-backlink-feedback-learning.md` | Capture backlink and content feedback separately | 30-38 |
+| `39-backlink-feedback-learning.md` | Capture backlink and content feedback separately | 30-38/activity |
 
 ## Business listings
 
@@ -65,6 +65,37 @@ Use this map to select the smallest relevant skill file and preserve handoffs.
 | `51-seo-content-review.md` | Review factual, SEO, intent, tone, link and guideline fit | 52 |
 | `52-onpage-implementation-publishing.md` | Implement approved on-page elements and publish | 53 |
 | `53-indexing-monitoring.md` | Check indexing, performance, rankings, regressions | Feedback/context |
+
+## Off-page activity controllers
+
+Use [59-offpage-activity-map.md](59-offpage-activity-map.md) to route the exact activity. Each activity keeps its own execution steps while reusing shared modules only when applicable.
+
+| File | Activity | Shared modules commonly used |
+|---|---|---|
+| `60-link-building.md` | Link Building | 30-39 |
+| `61-business-listing.md` | Business Listing | 40-41 |
+| `62-ping-submission.md` | Ping Submission | 53 |
+| `63-micro-blogging.md` | Micro Blogging | 04, 38 when link exists |
+| `64-video-submission.md` | Video Submission | 04, 38 when link exists |
+| `65-ppt-submission.md` | PPT Submission | 04, 38 when link exists |
+| `66-pdf-submission.md` | PDF Submission | 04, 38 when link exists |
+| `67-web-2-0-submission.md` | Web 2.0 Submission | 32, 34-39 |
+| `68-search-engine-submission.md` | Search Engine Submission | 21, 53 |
+| `69-guest-posting.md` | Guest Posting | 32-39 |
+| `70-social-bookmarking.md` | Social Bookmarking | 32, 38-39 when link exists |
+| `71-press-release.md` | Press Release | 03-04, 38 when links/mentions tracked |
+| `72-backlinks.md` | Backlinks | 30-39 |
+| `73-blog-directory-submission.md` | Blog Directory Submission | 32, 38-39 |
+| `74-infographics.md` | Infographics | 32, 34, 38-39 |
+| `75-podcasts.md` | Podcasts | 03-04, 32, 38 when show-note link exists |
+| `76-question-answer.md` | Q&A | 04, 32 when qualification is needed, 38 when link exists |
+| `77-article-submission.md` | Article Submission | 32-39 |
+| `78-image-sharing.md` | Image Sharing | 04, 38 when link exists |
+| `79-profile-creation.md` | Profile Creation | 04, 32, 38-39 |
+| `80-guest-blogging.md` | Guest Blogging | 32-39; related to 69 |
+| `81-forums.md` | Forums | 04, 32, 38-39 |
+| `82-blog-commenting.md` | Blog Commenting | 04, 32, 38-39 |
+| `83-forum-participation.md` | Forum Participation | 04, 32, 38-39; related to 81 |
 
 ## Routing rule
 

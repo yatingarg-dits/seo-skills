@@ -2,22 +2,24 @@
 
 ## Purpose
 
-Verify that a created backlink exists as expected and monitor whether it remains useful over time.
+Verify that a created backlink or link-bearing off-page activity exists as expected and monitor whether it remains useful over time.
 
 ## Initial verification
 
+Load the activity file from [59-offpage-activity-map.md](59-offpage-activity-map.md) so verification matches the expected outcome for that activity.
+
 Check:
 
-- Live page URL
+- Live page/post/profile/listing URL
 - Page loads successfully
 - Correct client target URL
-- Correct anchor/placement
+- Correct anchor/placement when applicable
 - Link is clickable
 - Link attribute if relevant
 - Page robots directive
 - Canonical behavior
-- Content published as approved or note changes
-- Publisher changed/removed content
+- Content/profile/media published as approved or note changes
+- Publisher/platform changed or removed content
 
 ## Indexation check
 
@@ -29,18 +31,18 @@ Record:
 
 Do not equate immediate non-indexation with permanent failure. Follow the team-approved recheck schedule.
 
-If no schedule exists, return `NEEDS_HUMAN_RULE` for timing rather than inventing one.
+If no schedule exists, return `NEEDS_HUMAN_RULE` rather than inventing a timing threshold.
 
 ## Ongoing monitoring
 
-Track:
+Track as applicable:
 
 - Link live/lost
 - Target URL changed
 - Anchor changed
-- Page removed
+- Page/post/profile removed
 - Page redirected
-- Domain expired/offline
+- Domain/platform unavailable
 - Link attribute changed
 - Page becomes non-indexable
 - Publisher becomes paid/restricted
@@ -56,6 +58,7 @@ Classify reason where possible:
 - Publisher edit
 - Site migration
 - Target URL issue
+- Account/profile removal
 - Unknown
 
 Then decide:
@@ -69,10 +72,11 @@ Then decide:
 
 Store:
 
-- Domain
-- Live page URL
+- Domain/platform
+- Activity type
+- Live page/post/profile/listing URL
 - Target URL
-- Anchor
+- Anchor when applicable
 - Link attribute
 - First live date
 - Last checked date
