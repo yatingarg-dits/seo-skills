@@ -21,6 +21,9 @@ Capture when available:
 - Root domain
 - Opportunity URL
 - Source/discovery channel
+- Community source ID when applicable
+- Source post/message URL or reference when available
+- Community/source verification date
 - First discovered date
 - Last checked date
 - Activity type

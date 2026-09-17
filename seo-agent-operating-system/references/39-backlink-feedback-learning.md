@@ -53,6 +53,21 @@ Capture changes such as:
 
 Update [42-backlink-commercial-classification.md](42-backlink-commercial-classification.md), [36-publisher-guidelines.md](36-publisher-guidelines.md), or [44-historical-backlink-database.md](44-historical-backlink-database.md) as appropriate.
 
+## Feedback stream 4 - community source quality
+
+For candidates originating from [46-backlink-community-source-database.md](46-backlink-community-source-database.md), capture:
+
+- Source ID
+- Useful candidate / no useful candidate
+- Qualified / rejected ratio
+- Paid-only frequency
+- Spam/fraud/risk incidents
+- Live placement outcome
+- Time spent to find a usable opportunity
+- Human source rating
+
+Use repeated evidence before changing a source role. Downgrade consistently poor/high-risk sources to `RESEARCH_ONLY`; do not promote a source merely because it produces high volume.
+
 ## Rule update scope
 
 Classify feedback as:

@@ -10,6 +10,7 @@ Load:
 
 - [01-platform-seo-context.md](01-platform-seo-context.md)
 - [04-property-context.md](04-property-context.md)
+- [46-backlink-community-source-database.md](46-backlink-community-source-database.md) when using Telegram/Facebook/Slack sources
 
 ## Discovery sources
 
@@ -25,6 +26,7 @@ Use only sources available/approved for the workflow, such as:
 - Industry/community websites
 - Direct publisher research
 - Community-fed links via [31-community-link-intake.md](31-community-link-intake.md)
+- Approved/researched community sources from [46-backlink-community-source-database.md](46-backlink-community-source-database.md)
 
 Record the source of every candidate.
 
@@ -55,6 +57,8 @@ Store:
 - Apparent opportunity type
 - Free/paid/unknown
 - Login/outreach/unknown
+- Community source ID when applicable
+- Source post/message URL when available
 - Notes
 
 ## Duplicate check

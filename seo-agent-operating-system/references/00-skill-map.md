@@ -59,6 +59,7 @@ Use this map to select the smallest relevant module and preserve handoffs.
 | `43-backlink-benchmark-capacity.md` | Provisional experienced-operator benchmarks |
 | `44-historical-backlink-database.md` | Historical placement/research memory |
 | `45-publisher-rule-hackernoon.md` | Current public HackerNoon example record |
+| `46-backlink-community-source-database.md` | Dated Telegram/Facebook/Slack backlink-source database |
 
 ## Business listings
 

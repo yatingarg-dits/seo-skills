@@ -41,6 +41,8 @@ Record separately:
 6. Mark old price data `NEEDS_REVALIDATION`.
 7. Never claim credentials exist unless access is confirmed.
 8. Store credentials in the approved secret/credential system, not in skill text or public sheets.
+9. A community/source label such as "free", "paid", "exchange", or "guest post" is only a lead; verify current commercial terms with the publisher/owner before final classification.
+10. Community source risk and publisher quality are separate dimensions; a high-risk marketplace can still surface a legitimate site, and a reputable community can still surface an unsuitable site.
 
 ## Search-policy guardrail
 

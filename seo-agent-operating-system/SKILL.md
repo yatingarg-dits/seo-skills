@@ -48,7 +48,7 @@ Use `29-audit-example-output` only for output-format examples, never as client e
 
 For external link opportunities:
 
-`30/31 discovery` -> `44 historical backlink check` -> `32 qualification` -> `42 commercial/access classification` -> `33 activity classification` -> relevant activity `60-83` -> `34 target/anchor` and `35/36 content/publisher` as needed -> `37 execution` -> `38 verification` -> `44 history update` -> `39 feedback`
+`46 community-source database` when community research is needed -> `30/31 discovery` -> `44 historical backlink check` -> `32 qualification` -> `42 commercial/access classification` -> `33 activity classification` -> relevant activity `60-83` -> `34 target/anchor` and `35/36 content/publisher` as needed -> `37 execution` -> `38 verification` -> `44 history update` -> `39 feedback`
 
 Use `43-backlink-benchmark-capacity` for planning capacity, never as a reason to lower quality.
 

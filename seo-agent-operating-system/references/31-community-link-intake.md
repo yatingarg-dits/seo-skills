@@ -4,7 +4,7 @@
 
 Process backlink opportunities sourced from Telegram, Slack, Facebook groups, shared spreadsheets, or similar communities.
 
-These sources are discovery inputs, not automatic approvals.
+These sources are discovery inputs, not automatic approvals. Load [46-backlink-community-source-database.md](46-backlink-community-source-database.md) when using a known/researched community.
 
 ## Supported intake forms
 
@@ -21,9 +21,12 @@ Examples:
 
 For each batch record:
 
+- Community source ID from the source database when available
 - Community/platform
 - Group/channel name when permitted
 - Date received
+- Source last-verified date
+- Exact post/message URL or message reference when available
 - Shared by/source identity when relevant and allowed
 - Free/paid claim
 - Credential claim
@@ -40,7 +43,7 @@ Extract and normalize:
 - Claimed access/login status
 - Claimed contact method
 
-Never treat a claim in a shared sheet as verified fact.
+Never treat a claim in a shared sheet, group post, seller message, or channel description as verified fact.
 
 ## Initial checks
 
@@ -68,6 +71,17 @@ Record one:
 - UNKNOWN
 
 Do not store actual passwords in this markdown workflow. Use the organization-approved credential system.
+
+## Community-source controls
+
+Apply the source role from [46-backlink-community-source-database.md](46-backlink-community-source-database.md):
+
+- `DIRECT_OPPORTUNITY`: intake candidates, but still qualify every domain.
+- `RELATIONSHIP_NETWORKING`: use for relationships/research; do not assume solicitation is permitted.
+- `MARKETPLACE_HIGH_RISK`: manual review is mandatory before outreach, exchange, registration, or payment.
+- `RESEARCH_ONLY`: do not route placements to execution; use only for intelligence/risk learning.
+
+If current group rules conflict with the database, current rules win and the database must be updated.
 
 ## Paid versus free handling
 
