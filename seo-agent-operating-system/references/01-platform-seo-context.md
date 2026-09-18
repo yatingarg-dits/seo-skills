@@ -1,14 +1,14 @@
-# Platform SEO Context
+# Platform SEO and Content Context
 
 ## Purpose
 
-Store generic platform SEO rules that apply across clients. Do not place client-specific facts here.
+Store generic platform rules that apply across clients. Do not place client-specific facts here.
 
 ## Context hierarchy
 
 Use:
 
-`Platform -> Agency override -> Client -> Property -> Activity/Publisher`
+`Platform -> Agency override -> Client -> Property -> Asset/Activity/Publisher`
 
 Lower layers may narrow or override only where the higher-level rule allows it.
 
@@ -16,14 +16,17 @@ Lower layers may narrow or override only where the higher-level rule allows it.
 
 Capture approved defaults for:
 
-- Supported SEO/off-page activities
+- Supported SEO/content/off-page activities
 - Approved/free/paid tools and integrations
 - Keyword data-source priority
+- Content research/source reliability
+- Content approval and publishing authority
+- Content PASS/WARNING/BLOCK validation
 - Backlink qualification thresholds
 - Backlink commercial classification
 - Capacity/benchmark planning
 - Human approval points
-- Rejection reason taxonomy
+- Rejection/failure reason taxonomy
 - Naming conventions
 - Output schemas
 - Search/publisher policy boundaries
@@ -32,8 +35,13 @@ Capture approved defaults for:
 
 ## Current v1 defaults
 
-Use these modules as the current platform defaults unless an approved lower layer overrides them:
+Use these modules unless an approved lower layer overrides them:
 
+- Content workflow: [54-content-production-workflow.md](54-content-production-workflow.md)
+- Content governance: [55-content-rulebook-governance.md](55-content-rulebook-governance.md)
+- Content research/source reliability: [57-content-source-research-reliability.md](57-content-source-research-reliability.md)
+- Content validation: [87-content-validation-gate.md](87-content-validation-gate.md)
+- Human/confidence governance: [89-content-human-confidence-governance.md](89-content-human-confidence-governance.md)
 - Keyword source priority: [16-keyword-data-source-priority.md](16-keyword-data-source-priority.md)
 - Keyword APIs/integrations: [17-keyword-api-integration.md](17-keyword-api-integration.md)
 - Backlink qualification: [32-backlink-qualification.md](32-backlink-qualification.md)
@@ -41,18 +49,25 @@ Use these modules as the current platform defaults unless an approved lower laye
 - Capacity benchmarks: [43-backlink-benchmark-capacity.md](43-backlink-benchmark-capacity.md)
 - Historical backlink memory: [44-historical-backlink-database.md](44-historical-backlink-database.md)
 
+## Golden-rule summary
+
+Enforce:
+
+- Never fabricate.
+- Evidence before recommendation.
+- Business relevance and user value before SEO volume/keyword density.
+- Retrieve before generating.
+- Recommend before executing when judgment is required.
+- Human expertise handles ambiguity.
+- Important AI decisions must be explainable.
+- External actions must be auditable.
+- Quality must not be sacrificed for volume.
+
+Use [55-content-rulebook-governance.md](55-content-rulebook-governance.md) for the full content rule set.
+
 ## Metric/source rule
 
 For every metric store its source/date because values differ by provider.
-
-Examples:
-
-- Search volume + source
-- Organic difficulty + provider
-- Paid competition + Google Ads source
-- DA/PA/Spam Score + source
-- Organic traffic estimate + provider/date
-- Rank + source/date/location/device when relevant
 
 Do not compare differently defined metrics as if identical.
 
@@ -66,14 +81,16 @@ Represent important rules as:
 
 Keep humans responsible for:
 
-- New thresholds
+- New thresholds/rules
 - Strategy changes
 - Exceptions
 - Risky/paid link approvals where configured
 - Client positioning/claims
 - Sensitive publisher relationships
+- High-risk content/external actions
+- Final publishing when configured
 - Global rule changes from feedback
 
 ## Handoff
 
-Load client/property context before client-specific recommendations.
+Load client/property context before client-specific recommendations or content generation.

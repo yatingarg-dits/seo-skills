@@ -1,59 +1,88 @@
-# Indexing, Ranking, and SEO Monitoring
+# Indexation, Ranking, and Content Performance Monitoring
 
 ## Purpose
 
-Monitor website landing pages/content after publication or SEO implementation and detect indexing, ranking, traffic, or conversion issues.
+Monitor verified website content after publication or SEO implementation and decide whether to monitor, optimize, or close the active review cycle.
 
 Backlink-page verification remains in [38-backlink-verification-monitoring.md](38-backlink-verification-monitoring.md).
 
 For explicit submission/discovery actions, use [62-ping-submission.md](62-ping-submission.md) or [68-search-engine-submission.md](68-search-engine-submission.md) before monitoring.
 
+
+## Contents
+
+- Purpose and inputs
+- Indexation check
+- Ranking baseline and monitoring
+- Performance review and change detection
+- Performance decision
+- Diagnosis route and output
 ## Inputs
 
 Accept:
 
+- Publication-verified URLs from [52-onpage-implementation-publishing.md](52-onpage-implementation-publishing.md)
 - New/updated website URLs
 - Audit fixes
 - Keyword target map
 - Baseline metrics
-- Expected conversion actions
+- Business objective/conversion actions
 
-## Indexing checks
+## Indexation check - mandatory in the content workflow
 
 Track where evidence is available:
 
-- URL crawlability
+- Crawlability
 - `noindex` status
 - Canonical
 - Sitemap inclusion
 - Search Console inspection/indexing state
-- Google-selected canonical when available
+- Search-engine-selected canonical when available
 - Crawl/index exclusion reason
 
-Do not repeatedly request indexing or take action without an approved process.
+Use:
+
+- INDEXED
+- NOT_INDEXED
+- PENDING
+- INDEXATION_ISSUE
+
+Do not repeatedly request indexing without diagnosis or an approved process.
+
+## Ranking baseline
+
+When ranking data becomes available, record:
+
+- First observed position/baseline
+- Primary keyword/cluster
+- Supporting keyword positions where useful
+- Ranking URL
+- Geography/device/source/date
+
+Use `BASELINE_CAPTURED` when recorded.
 
 ## Ranking monitoring
 
-Track target clusters rather than one keyword only where possible:
+Monitor primary/supporting clusters and watch for:
 
-- Primary keyword position
-- Supporting keyword positions
-- Ranking URL
-- Wrong-URL/cannibalization changes
+- Position direction
+- Wrong URL/cannibalization
 - SERP feature changes
-- Geography/device as configured
+- Geography/device differences where configured
 
-## Performance monitoring
+Monitoring frequency/duration is configurable, not a universal blocker.
 
-Track relevant metrics:
+## Performance review
+
+Evaluate relevant evidence such as:
 
 - Clicks
 - Impressions
 - CTR
 - Organic sessions
 - Conversions/leads/revenue when available
-- Landing-page engagement signals used by the team
-- Core Web Vitals regressions when relevant
+- Landing-page engagement measures used by the team
+- Core Web Vitals regression when relevant
 
 Always store date range and source.
 
@@ -61,27 +90,51 @@ Always store date range and source.
 
 Flag:
 
-- Not indexed after expected review window
+- Indexation issue
 - Sudden ranking drop
-- Wrong URL starts ranking
+- Wrong URL ranking
 - Click/impression decline
 - Conversion tracking loss
-- Page becomes redirected/error/noindex
-- Canonical changes
-- Content disappears/changes unexpectedly
-- Internal links removed
+- Redirect/error/noindex/canonical change
+- Content disappearance/unapproved change
+- Important internal links removed
 
-Use team-approved timing thresholds. If none exist, flag `NEEDS_HUMAN_RULE` rather than inventing a number of days.
+Use team-approved timing thresholds. If none exist, mark `NEEDS_HUMAN_RULE` instead of inventing a number of days.
+
+## Performance decision
+
+Return one:
+
+- MONITOR
+- OPTIMIZE
+- CONTINUE_MONITORING
+- CLOSE_REVIEW_CYCLE
+- TECHNICAL_DIAGNOSIS_REQUIRED
+- CONTENT_OPTIMIZATION_REQUIRED
+- TRACKING_DIAGNOSIS_REQUIRED
+- HUMAN_REVIEW_REQUIRED
 
 ## Diagnosis route
 
 - Crawl/index issue -> [21-technical-crawl-indexation.md](21-technical-crawl-indexation.md)
-- Content/intent issue -> [22-onpage-content-audit.md](22-onpage-content-audit.md)
+- Content/intent issue -> [22-onpage-content-audit.md](22-onpage-content-audit.md) or [56-content-topic-research-validation.md](56-content-topic-research-validation.md)
 - Internal-link issue -> [23-architecture-internal-linking.md](23-architecture-internal-linking.md)
 - Performance/mobile issue -> [24-performance-mobile-schema.md](24-performance-mobile-schema.md)
 - Tracking issue -> [26-analytics-tracking.md](26-analytics-tracking.md)
 - Keyword mapping issue -> [14-keyword-clustering-mapping.md](14-keyword-clustering-mapping.md)
+- Content-quality/optimization issue -> [86-content-quality-ai-originality.md](86-content-quality-ai-originality.md) and [51-seo-content-review.md](51-seo-content-review.md)
 
 ## Output
 
-Return URL, monitoring period, indexing status, ranking summary, traffic/conversion summary, change detected, evidence, diagnosis route, recommended action, and human review status.
+Return:
+
+- URL/asset
+- Monitoring period
+- Indexing status
+- Ranking baseline/current summary
+- Traffic/conversion summary
+- Change detected
+- Evidence
+- Diagnosis route
+- Decision: Monitor/Optimize/Continue/Close
+- Human review status

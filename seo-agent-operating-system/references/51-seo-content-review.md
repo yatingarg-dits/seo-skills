@@ -2,51 +2,74 @@
 
 ## Purpose
 
-Review drafted content for search intent, factual/property accuracy, client voice, usefulness, on-page requirements, and publication readiness.
+Review drafted content for factual accuracy, source quality, audience/intent fit, business relevance, brand rules, usefulness, on-page SEO, linking, and publication readiness.
 
 ## Inputs
 
-Use the content brief plus property context and [06-client-content-style-rules.md](06-client-content-style-rules.md).
+Use:
+
+- [50-seo-content-brief.md](50-seo-content-brief.md)
+- [84-content-creation-contract.md](84-content-creation-contract.md)
+- [86-content-quality-ai-originality.md](86-content-quality-ai-originality.md)
+- [85-content-linking.md](85-content-linking.md) where links are part of the asset
+- [06-client-content-style-rules.md](06-client-content-style-rules.md)
+- [57-content-source-research-reliability.md](57-content-source-research-reliability.md) when factual research is used
 
 ## Review dimensions
 
 ### Factual/client accuracy
 
-Check services, products, geography, audience, approved claims, author identity, restricted statements, and terminology.
+Check services, products, geography, audience, approved claims, author identity, restricted statements, terminology, statistics, quotations, and capabilities.
+
+### Sources/evidence
+
+Check whether material factual claims are traceable to appropriate evidence and whether conflicting/weak evidence is surfaced.
 
 ### Tone/voice
 
 Check formality, technical depth, CTA style, preferred/restricted words, and client positioning.
 
-### Search intent
+### Search/user intent
 
-Check page type, main problem/question, expected depth, and commercial conversion path where appropriate.
+Check the main need/question, expected depth, page/content type, and conversion path where appropriate.
 
-### Topic coverage
+### Topic coverage and structure
 
-Check required sections, gaps, repetition/fluff, unsupported filler, and useful evidence/examples.
+Check required sections, gaps, logical progression, repetition, fluff, evidence/examples, and questions from the approved brief.
 
 ### On-page SEO
 
-Check title direction, H1/headings, natural keyword use, internal links, external references, image/alt recommendations, and meta description when required.
+For SEO content check:
+
+- H1/headings
+- Natural primary/supporting-topic coverage
+- Intent alignment
+- Metadata recommendations where required
+- URL suggestion/target URL
+- Internal links
+- External sources
+- Image/alt recommendations where applicable
 
 ### Cannibalization
 
-If the draft duplicates an existing page intent, route back to keyword clustering/mapping.
+If the draft duplicates an existing page intent, route back to [56-content-topic-research-validation.md](56-content-topic-research-validation.md) and keyword clustering/mapping as needed.
 
-## Review outcome
+## Preliminary outcome
 
 Use:
 
-- APPROVED
-- APPROVED_WITH_MINOR_EDITS
-- MAJOR_REVISION
+- REVIEW_PASS
+- REVIEW_WARNING
+- REVIEW_BLOCK
 - FACTUAL_CONTEXT_MISSING
 - TONE_OR_CLAIM_VIOLATION
 - INTENT_MISMATCH
 - CANNIBALIZATION_RISK
-- REJECTED_WITH_REASON
-
-## Feedback
+- SOURCE_EVIDENCE_GAP
+- SEO_REVISION_REQUIRED
 
 Return exact rule-triggered changes, not vague comments such as "make SEO better."
+
+## Handoff
+
+Send the reviewed asset to [87-content-validation-gate.md](87-content-validation-gate.md) for the final PASS/WARNING/BLOCK decision before approval.

@@ -75,3 +75,19 @@ If a task requires an absent property fact:
 ## Updates
 
 Record changed field, old/new value, changed by, date, and reason.
+
+## Content production context
+
+Capture property-specific:
+
+- Primary content objectives
+- Property-specific audience/persona/geography
+- Priority content/page types
+- Existing content inventory/location
+- Funnel/use context where defined
+- CMS publishing workflow and approvers
+- Indexation/monitoring expectations
+- High-value pages that require manual change approval
+- Content performance KPIs when defined
+
+Use [56-content-topic-research-validation.md](56-content-topic-research-validation.md) before creating overlapping/new content and [54-content-production-workflow.md](54-content-production-workflow.md) for the full lifecycle.

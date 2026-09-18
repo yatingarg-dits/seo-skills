@@ -102,3 +102,7 @@ Recommend one:
 ## Output
 
 Return URL-level findings with evidence, recommendation, and owner. Route to [27-audit-prioritization-qa.md](27-audit-prioritization-qa.md).
+
+## Content remediation handoff
+
+When the disposition requires `Refresh`, `Expand`, `Re-optimize`, `Differentiate`, or `Create supporting content`, route the content work through [54-content-production-workflow.md](54-content-production-workflow.md). Re-check topic overlap through [56-content-topic-research-validation.md](56-content-topic-research-validation.md) and quality/originality through [86-content-quality-ai-originality.md](86-content-quality-ai-originality.md).

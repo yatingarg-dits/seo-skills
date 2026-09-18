@@ -55,3 +55,17 @@ Never assume all properties target the same pages, keywords, audiences, markets,
 ## Missing data
 
 Mark missing required client facts as `MISSING_CLIENT_CONTEXT`. Do not fabricate them.
+
+## Content production governance
+
+Capture client-wide defaults for:
+
+- Primary content objectives: traffic, authority, leads, conversion, awareness, or other approved goals
+- Core ICP/personas and search/use contexts
+- Strategic content themes
+- Default approval owner(s)
+- Whether client approval is required before publishing
+- High-value/sensitive content that always needs expert review
+- Claims/topics that require stronger evidence or legal/compliance review
+
+Route execution through [54-content-production-workflow.md](54-content-production-workflow.md) and [55-content-rulebook-governance.md](55-content-rulebook-governance.md).

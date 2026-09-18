@@ -51,7 +51,7 @@ Check:
 - Service-to-supporting-content links
 - Breadcrumbs
 - Related-content modules
-- Navigation/footer dependence
+- Navigation/footer dependency
 - Links to redirects/errors
 
 ## Authority flow
@@ -91,3 +91,7 @@ Return:
 - Priority reason
 
 Route to [27-audit-prioritization-qa.md](27-audit-prioritization-qa.md).
+
+## Content-production handoff
+
+This file controls site-wide architecture/internal-link auditing. During creation or revision of one content asset, use [85-content-linking.md](85-content-linking.md) for contextual link selection, anchor quality, destination validation, and external-source linking.

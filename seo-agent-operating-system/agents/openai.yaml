@@ -1,2 +1,3 @@
 interface:
-  display_name: "Seo Agent Operating System"
+  display_name: "SEO Agent Operating System"
+  short_description: "Modular SEO, content, backlink, audit, and monitoring workflows"

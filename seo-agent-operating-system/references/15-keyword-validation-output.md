@@ -68,3 +68,9 @@ Apply [16-keyword-data-source-priority.md](16-keyword-data-source-priority.md). 
 ## Handoff
 
 Approved organic clusters feed content/on-page/audit modules. Approved paid clusters feed the paid campaign workflow outside this skill when available.
+
+## Content handoff
+
+For approved organic/supporting-content clusters, hand off to [54-content-production-workflow.md](54-content-production-workflow.md).
+
+The first content-stage checks are [56-content-topic-research-validation.md](56-content-topic-research-validation.md) for context, existing-content conflict, topic options, uniqueness, and final topic direction.

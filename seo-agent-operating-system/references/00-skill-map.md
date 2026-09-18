@@ -6,7 +6,7 @@ Use this map to select the smallest relevant module and preserve handoffs.
 
 | File | Responsibility |
 |---|---|
-| `01-platform-seo-context.md` | Platform defaults and boundaries |
+| `01-platform-seo-context.md` | Platform defaults, golden rules, boundaries |
 | `02-agency-seo-overrides.md` | Agency-approved overrides |
 | `03-client-context.md` | Client-wide business/brand context |
 | `04-property-context.md` | Domain/property SEO and target-link context |
@@ -22,7 +22,7 @@ Use this map to select the smallest relevant module and preserve handoffs.
 | `12-paid-keyword-research.md` | Full paid keyword process |
 | `13-serp-competitor-analysis.md` | SERP pages 1-5, intent, competitors, allintitle |
 | `14-keyword-clustering-mapping.md` | Clusters, URL mapping, cannibalization |
-| `15-keyword-validation-output.md` | Final approvals/rejections/actions |
+| `15-keyword-validation-output.md` | Final approvals/rejections/actions + content handoff |
 | `16-keyword-data-source-priority.md` | Metric/source precedence and conflicts |
 | `17-keyword-api-integration.md` | GSC/Google Ads/SEO provider API logic |
 
@@ -59,7 +59,7 @@ Use this map to select the smallest relevant module and preserve handoffs.
 | `43-backlink-benchmark-capacity.md` | Provisional experienced-operator benchmarks |
 | `44-historical-backlink-database.md` | Historical placement/research memory |
 | `45-publisher-rule-hackernoon.md` | Current public HackerNoon example record |
-| `46-backlink-community-source-database.md` | Dated Telegram/Facebook/Slack backlink-source database |
+| `46-backlink-community-source-database.md` | Dated Telegram/Facebook/Slack source database |
 
 ## Business listings
 
@@ -68,14 +68,25 @@ Use this map to select the smallest relevant module and preserve handoffs.
 | `40-business-listing-discovery.md` | Find/qualify listing platforms |
 | `41-business-listing-execution.md` | Prepare, submit, verify, maintain listing |
 
-## SEO content
+## Content production and monitoring
 
 | File | Responsibility |
 |---|---|
-| `50-seo-content-brief.md` | Brief from keywords + context + tone/claims |
-| `51-seo-content-review.md` | Factual, tone, intent, on-page review |
-| `52-onpage-implementation-publishing.md` | Implement/publish |
-| `53-indexing-monitoring.md` | Indexing/performance monitoring |
+| `50-seo-content-brief.md` | Execution-ready brief/layout from context/research |
+| `51-seo-content-review.md` | SEO, factual, brand, intent, quality review |
+| `52-onpage-implementation-publishing.md` | Authorized publishing + publication verification |
+| `53-indexing-monitoring.md` | Indexation, ranking baseline/monitoring, performance review |
+| `54-content-production-workflow.md` | 25-stage workflow/orchestrator + mandatory/flexible gates |
+| `55-content-rulebook-governance.md` | Phase 1 content rules + product golden rules |
+| `56-content-topic-research-validation.md` | Context, existing-content, topic, uniqueness, selection |
+| `57-content-source-research-reliability.md` | Research chain + Tier A-E source framework |
+| `58-content-layout-validation.md` | Flow, intent, business, gaps, evidence, differentiation |
+| `84-content-creation-contract.md` | Audience/objective/intent/brand/evidence contract + drafting |
+| `85-content-linking.md` | Content-level internal/external link rules |
+| `86-content-quality-ai-originality.md` | Quality, AI issues, originality/information gain |
+| `87-content-validation-gate.md` | PASS/WARNING/BLOCK validation matrix |
+| `88-content-approval-revision.md` | Approval, changes, revision, final authorization |
+| `89-content-human-confidence-governance.md` | Human-in-loop, confidence, escalation, feedback scope |
 
 ## Off-page activity controllers
 
@@ -83,4 +94,4 @@ Use [59-offpage-activity-map.md](59-offpage-activity-map.md) for the exact activ
 
 ## Routing rule
 
-Keep a workflow separate when its source, decision criteria, execution, publisher rules, or monitoring behavior materially differs.
+Keep a workflow separate when its source, decision criteria, execution, approval, publisher rules, or monitoring behavior materially differs.

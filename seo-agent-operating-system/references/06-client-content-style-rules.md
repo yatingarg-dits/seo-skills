@@ -85,3 +85,15 @@ Apply these rules in:
 - [50-seo-content-brief.md](50-seo-content-brief.md)
 - [51-seo-content-review.md](51-seo-content-review.md)
 - Activity files in [59-offpage-activity-map.md](59-offpage-activity-map.md)
+
+## Content-production enforcement
+
+Apply these rules during:
+
+- Topic/brief decisions through [56-content-topic-research-validation.md](56-content-topic-research-validation.md) and [50-seo-content-brief.md](50-seo-content-brief.md)
+- Drafting through [84-content-creation-contract.md](84-content-creation-contract.md)
+- Quality review through [86-content-quality-ai-originality.md](86-content-quality-ai-originality.md)
+- Validation through [87-content-validation-gate.md](87-content-validation-gate.md)
+- Approval/revision through [88-content-approval-revision.md](88-content-approval-revision.md)
+
+Client style rules can narrow platform guidance but cannot authorize fabrication or unsupported material claims.
