@@ -2,6 +2,8 @@
 
 ## Purpose
 
+Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for Grammarly, Hemingway, Copyscape, ZeroGPT, Surfer/Frase, and other QA tools. AI-detection or content-optimization scores are warning/support signals only.
+
 Evaluate whether a draft is useful, defensible, brand-appropriate, clear, and meaningfully differentiated before formal validation.
 
 ## Core quality dimensions

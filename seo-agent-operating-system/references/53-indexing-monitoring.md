@@ -2,6 +2,8 @@
 
 ## Purpose
 
+Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for Search Console, Bing Webmaster Tools, GA4, Clarity, and approved rank/SEO platforms during post-publication monitoring.
+
 Monitor verified website content after publication or SEO implementation and decide whether to monitor, optimize, or close the active review cycle.
 
 Backlink-page verification remains in [38-backlink-verification-monitoring.md](38-backlink-verification-monitoring.md).

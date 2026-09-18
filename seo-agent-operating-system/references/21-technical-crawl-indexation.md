@@ -2,6 +2,8 @@
 
 ## Purpose
 
+Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for Screaming Frog, Search Console, Bing Webmaster Tools, Ahrefs/Semrush audit support, and secondary audit-tool roles.
+
 Audit whether search engines can efficiently discover, crawl, canonicalize, and index the correct URLs.
 
 ## Inputs
@@ -108,7 +110,7 @@ When relevant verify:
 - Links exist in rendered output
 - Canonical/meta directives are stable after rendering
 - Lazy-loaded content is discoverable
-- Client-side routing does not create inaccessible URLs
+- Client-side routing does not create inaccessibile URLs
 
 ## Output
 

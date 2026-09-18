@@ -2,6 +2,8 @@
 
 ## Purpose
 
+Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) when selecting research/briefing tools such as live SERP research, Ahrefs/Semrush, BuzzSumo, AnswerThePublic, Frase, or Surfer. Tool outlines never replace the required information architecture.
+
 Turn approved keyword/topic direction, client/property context, SERP observations, and research requirements into an execution-ready content brief and information architecture.
 
 A brief is not a competitor-heading copy. Build the best recommended structure for the intended user and business objective.

@@ -18,7 +18,7 @@ For client-owned URLs also use [53-indexing-monitoring.md](53-indexing-monitorin
 
 1. Confirm the page is live and technically eligible for discovery/indexing.
 2. Check whether the team still uses ping submission for this property/platform.
-3. Select the approved ping service from the team-maintained tool list.
+3. Select an approved ping service only if listed/configured through [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) or an approved agency override.
 4. Enter only the required URL/feed/site information.
 5. Submit once according to the approved cadence.
 6. Record service, date, URL, and submission response.

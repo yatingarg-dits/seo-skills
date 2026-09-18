@@ -6,6 +6,8 @@ Share short-form updates, promotions, or content snippets on approved micro-blog
 
 ## Purpose
 
+Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for Buffer scheduling/approval/analytics and Canva visual production when those tools are approved.
+
 Use short-form distribution to increase content visibility, referral opportunities, brand presence, and relevant engagement. Do not promise direct ranking improvement from social engagement alone.
 
 ## Prerequisites

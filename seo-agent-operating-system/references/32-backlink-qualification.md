@@ -2,6 +2,8 @@
 
 ## Purpose
 
+Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for provider-specific backlink metrics and GuestPostLinks handling. Preserve the provider name/date with every material metric.
+
 Decide whether a candidate website is suitable using relevance, audience, real visibility, risk, authority, indexability, and manual quality—not DA alone.
 
 ## Inputs

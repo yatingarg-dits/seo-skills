@@ -21,6 +21,7 @@ Use this skill as a router. Load only the modules required for the current task.
 10. Record evidence, decisions, warnings/blocks, approvals, failure reasons, and human feedback.
 11. Recommend before executing when judgment or high-risk external action is required.
 12. Automate repetition, not accountability.
+13. Use [07-seo-content-tool-stack.md](references/07-seo-content-tool-stack.md) as the central tool-control file; do not invent a different tool role in downstream modules.
 
 ## Context route
 
@@ -33,6 +34,7 @@ Load as needed:
 - [04-property-context.md](references/04-property-context.md)
 - [05-author-brand-identity.md](references/05-author-brand-identity.md)
 - [06-client-content-style-rules.md](references/06-client-content-style-rules.md)
+- [07-seo-content-tool-stack.md](references/07-seo-content-tool-stack.md) when a task requires tool selection, tool data, tool-specific execution, or tool limitations
 
 ## Keyword research route
 

@@ -2,6 +2,8 @@
 
 ## Purpose
 
+Use writing/creation tools only through [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md). ChatGPT, Grammarly, QuillBot, Hemingway, Canva, and similar tools must preserve approved evidence, meaning, voice, and restrictions.
+
 Define the complete input contract a writer/content agent must receive before drafting and the rules it must follow during generation.
 
 ## Required content contract

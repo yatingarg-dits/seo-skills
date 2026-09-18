@@ -6,6 +6,8 @@ Create and distribute informative visual assets that can earn shares, referral t
 
 ## Purpose
 
+Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for Canva or other approved visual-production tools; verify every statistic/source before design/export.
+
 Use visual data/storytelling as a linkable and shareable asset rather than submitting the same graphic indiscriminately everywhere.
 
 ## Prerequisites

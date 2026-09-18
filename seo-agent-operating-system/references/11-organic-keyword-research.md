@@ -2,6 +2,8 @@
 
 ## Purpose
 
+Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for the approved roles/processes of Search Console, Ahrefs, Semrush, Moz, Google Trends, Google Keyword Planner, Similarweb, SEOquake, and content-research tools.
+
 Run the complete experienced-SEO organic keyword process from existing-property signals through competitor/SERP validation and URL mapping.
 
 ## Prerequisites

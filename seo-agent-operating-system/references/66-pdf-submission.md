@@ -6,6 +6,8 @@ Publish approved PDFs such as guides, whitepapers, eBooks, checklists, or report
 
 ## Purpose
 
+Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for Canva or other approved document/visual production tools; the PDF must still pass content/source validation.
+
 Increase document visibility, referral opportunities, branded content distribution, and potential link exposure.
 
 ## Prerequisites

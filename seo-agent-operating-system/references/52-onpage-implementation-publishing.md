@@ -2,6 +2,8 @@
 
 ## Purpose
 
+Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for CMS/Yoast implementation support, Tag Manager measurement changes, schema tests, and publication verification tools.
+
 Publish approved content/SEO changes without introducing technical or content regressions, then verify the live publication before marking the publishing stage complete.
 
 ## Inputs

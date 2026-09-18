@@ -2,6 +2,8 @@
 
 ## Purpose
 
+Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for crawl/internal-link sources such as Screaming Frog and approved SEO platforms.
+
 Evaluate whether site structure and internal links guide users and search engines toward important pages.
 
 ## Inputs
@@ -51,7 +53,7 @@ Check:
 - Service-to-supporting-content links
 - Breadcrumbs
 - Related-content modules
-- Navigation/footer dependency
+- Navigation/footer dependence
 - Links to redirects/errors
 
 ## Authority flow

@@ -2,6 +2,8 @@
 
 ## Purpose
 
+Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for SEOquake, Yoast, Screaming Frog, Semrush/Ahrefs, SEOptimer/SEOmator-like audit support, and their limitations. Tool findings remain evidence, not automatic priorities.
+
 Audit page-level relevance, search intent, metadata, headings, content quality, duplication, and keyword targeting.
 
 ## Inputs

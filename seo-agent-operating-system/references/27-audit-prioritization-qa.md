@@ -2,6 +2,8 @@
 
 ## Purpose
 
+Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for tool limitations. Never copy a crawler/audit platform severity or score directly into final business priority.
+
 Turn audit findings into executable work, verify fixes, and prevent tool severity from replacing SEO/business judgment.
 
 ## Required issue fields

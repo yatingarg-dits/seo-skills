@@ -6,6 +6,8 @@ Publish relevant video content on approved video platforms and connect it to the
 
 ## Purpose
 
+Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for approved visual/content creation and social publishing tools where relevant.
+
 Use video publishing to increase brand/content discovery, referral traffic, audience engagement, and searchable multimedia presence.
 
 ## Prerequisites

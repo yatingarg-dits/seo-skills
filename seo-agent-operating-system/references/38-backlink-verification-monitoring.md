@@ -2,6 +2,8 @@
 
 ## Purpose
 
+Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for backlink verification/monitoring tools, but verify the live placement itself before marking a link active.
+
 Verify that a created backlink or link-bearing off-page activity exists as expected and monitor whether it remains useful over time.
 
 ## Initial verification

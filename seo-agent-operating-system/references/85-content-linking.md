@@ -2,6 +2,8 @@
 
 ## Purpose
 
+Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for crawl/internal-link tools, Surfer/Yoast suggestions, and external-source validation support.
+
 Add or recommend links that improve user usefulness, evidence, navigation, and site architecture without forcing links for SEO alone.
 
 ## Internal-link evaluation sequence

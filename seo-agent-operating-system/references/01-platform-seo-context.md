@@ -18,6 +18,8 @@ Capture approved defaults for:
 
 - Supported SEO/content/off-page activities
 - Approved/free/paid tools and integrations
+
+Centralize approved tool roles and operating processes in [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md). Downstream modules may narrow tool usage but should not redefine the tool's core role without an approved override.
 - Keyword data-source priority
 - Content research/source reliability
 - Content approval and publishing authority
@@ -73,9 +75,9 @@ Do not compare differently defined metrics as if identical.
 
 ## Decision rule format
 
-Represent important rules as:
+Represent important rules as :
 
-`IF <condition> THEN <action> BECAUSE <reason> ELSE <next check>`
+`IF <condition> THEN <action> DBECAUSE <reason> ELSE <next check>`
 
 ## Human control
 

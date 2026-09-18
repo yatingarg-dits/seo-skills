@@ -2,6 +2,8 @@
 
 ## Purpose
 
+Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for Grammarly, Hemingway, QuillBot, ZeroGPT, Surfer/Frase/Yoast, and other review tools. Their scores/suggestions cannot override factual, brand, intent, or human-review rules.
+
 Review drafted content for factual accuracy, source quality, audience/intent fit, business relevance, brand rules, usefulness, on-page SEO, linking, and publication readiness.
 
 ## Inputs

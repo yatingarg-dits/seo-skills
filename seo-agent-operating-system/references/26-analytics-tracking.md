@@ -2,13 +2,15 @@
 
 ## Purpose
 
+Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for Google Analytics (GA4), Google Tag Manager, Search Console, Microsoft Clarity, and measurement-tool processes.
+
 Verify that SEO outcomes can be measured and that tracking does not create misleading performance conclusions.
 
 ## Systems
 
 Check availability/configuration of:
 
-- GA4
+- Google Analytics (GA4)
 - Google Tag Manager
 - Google Search Console
 - Consent tooling where applicable

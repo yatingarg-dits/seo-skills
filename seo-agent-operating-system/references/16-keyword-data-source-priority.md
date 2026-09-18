@@ -2,6 +2,8 @@
 
 ## Purpose
 
+Use the tool roles and execution processes in [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md). This file decides source precedence when tools disagree.
+
 Define which source to trust for each keyword decision when values differ across Google and third-party SEO tools.
 
 Do not create one universal "best tool". Source priority depends on the metric and decision.

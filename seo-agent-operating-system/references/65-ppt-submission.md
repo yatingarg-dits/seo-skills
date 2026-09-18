@@ -6,6 +6,8 @@ Publish useful presentation content on approved presentation/document-sharing pl
 
 ## Purpose
 
+Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for Canva or other approved presentation-production tools; the content and claims still require the normal content validation workflow.
+
 Distribute presentation-format expertise, increase brand visibility, create referral paths, and potentially earn a platform link.
 
 ## Prerequisites

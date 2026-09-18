@@ -2,6 +2,8 @@
 
 ## Purpose
 
+Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for PageSpeed Insights/Lighthouse, Rich Results Test, Schema.org Validator, schema generators, and supporting crawl tools. The Google Mobile-Friendly Test is retired and must not be used for new work.
+
 Audit technical user-experience signals and implementation quality without reducing SEO to a single tool score.
 
 ## Performance evidence

@@ -2,6 +2,8 @@
 
 ## Purpose
 
+Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for approved research/content tools. ChatGPT or another AI tool may help discover/synthesize sources, but the AI output itself is not source evidence.
+
 Create an auditable research pack for factual content and classify evidence by source reliability.
 
 

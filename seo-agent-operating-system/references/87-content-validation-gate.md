@@ -2,6 +2,8 @@
 
 ## Purpose
 
+Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) to interpret tool output. No tool score can by itself create `PASS`, `WARNING`, or `BLOCK`; the decision must map to the validation evidence and rule.
+
 Apply a consistent PASS/WARNING/BLOCK decision before approval or publishing.
 
 The validator must explain why an item passed, warned, or failed. Do not return only a score.

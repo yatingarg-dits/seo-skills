@@ -2,6 +2,8 @@
 
 ## Purpose
 
+Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for Google Keyword Planner, Search Console, Semrush/Ahrefs supporting research, and source limitations.
+
 Build and validate a Google Ads/Search paid-keyword universe based on campaign economics, intent, and landing-page fit.
 
 ## Prerequisites
@@ -28,8 +30,7 @@ Use services/products, organic research, Keyword Planner, existing Ads search te
 Where available store:
 
 - Average monthly searches
-- Competition
-- Competition index when available
+- Competitionº- Competition index when available
 - Top-of-page bid low/high
 - Location/language/network
 - Monthly/seasonal trend

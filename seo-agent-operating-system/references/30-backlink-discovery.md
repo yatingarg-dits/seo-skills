@@ -2,6 +2,8 @@
 
 ## Purpose
 
+Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for Ahrefs, Semrush, Moz, Bing backlink data, Similarweb supporting research, and GuestPostLinks commercial discovery.
+
 Find candidate backlink opportunities from approved sources without assuming they are suitable.
 
 ## Prerequisites

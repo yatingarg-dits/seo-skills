@@ -2,6 +2,8 @@
 
 ## Purpose
 
+When writing/editing tools are used, follow [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) plus client/property/publisher rules.
+
 Create proposed content for an approved backlink opportunity using property context, target/anchor planning, publisher requirements, and the exact activity workflow.
 
 The output is proposed content for human review unless the platform explicitly allows automatic publishing.

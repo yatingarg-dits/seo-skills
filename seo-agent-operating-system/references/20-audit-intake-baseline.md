@@ -2,6 +2,8 @@
 
 ## Purpose
 
+Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) to identify approved crawl, analytics, performance, schema, and competitor tools before collecting audit data.
+
 Prepare the business, access, and baseline data required before a full website audit.
 
 ## Prerequisites

@@ -6,6 +6,8 @@ Submit or expose website URLs/sitemaps through approved search-engine webmaster 
 
 ## Purpose
 
+Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for Google Search Console and Bing Webmaster Tools submission/indexation workflows.
+
 Help search engines discover eligible client-owned pages. Do not treat submission as a guarantee of indexing or ranking.
 
 ## Prerequisites

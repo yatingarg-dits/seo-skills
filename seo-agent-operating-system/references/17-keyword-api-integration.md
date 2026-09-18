@@ -2,6 +2,8 @@
 
 ## Purpose
 
+Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) to confirm the approved tool role before connecting an API. Do not add an API merely because the provider offers one.
+
 Define the preferred programmatic data path for keyword research while preserving a manual/export fallback.
 
 ## Integration priority

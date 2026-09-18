@@ -12,6 +12,7 @@ Use this map to select the smallest relevant module and preserve handoffs.
 | `04-property-context.md` | Domain/property SEO and target-link context |
 | `05-author-brand-identity.md` | Authors, bios, signatures, public identity |
 | `06-client-content-style-rules.md` | Tone, claims, exclusions, terminology |
+| `07-seo-content-tool-stack.md` | Central SEO/content tool roles, processes, limitations, and routing |
 
 ## Keyword research
 

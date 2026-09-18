@@ -2,6 +2,8 @@
 
 ## Purpose
 
+Select and configure audit tools through [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) before running the sequence.
+
 Define the exact experienced-SEO audit order so the agent does not treat a crawler export as the finished audit.
 
 ## Sequence
