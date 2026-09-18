@@ -4,7 +4,7 @@
 
 Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for Screaming Frog, Search Console, Bing Webmaster Tools, Ahrefs/Semrush audit support, and secondary audit-tool roles.
 
-Audit whether search engines can efficiently discover, crawl, canonicalize, and index the correct URLs.
+Audit whether search engines can efficiently discover, crawl, canonicalize, and index the correct URLs. Apply [08-google-search-ranking-systems.md](08-google-search-ranking-systems.md) for Google eligibility/duplicate-system implications and [09-ai-llm-discovery-visibility.md](09-ai-llm-discovery-visibility.md) when checking AI search crawlers, robots/CDN controls, or retrieval visibility.
 
 ## Inputs
 

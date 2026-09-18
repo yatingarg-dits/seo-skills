@@ -4,7 +4,7 @@
 
 Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for Grammarly, Hemingway, QuillBot, ZeroGPT, Surfer/Frase/Yoast, and other review tools. Their scores/suggestions cannot override factual, brand, intent, or human-review rules.
 
-Review drafted content for factual accuracy, source quality, audience/intent fit, business relevance, brand rules, usefulness, on-page SEO, linking, and publication readiness.
+Review drafted content for factual accuracy, source quality, audience/intent fit, business relevance, brand rules, usefulness, on-page SEO, linking, and publication readiness. Validate against [08-google-search-ranking-systems.md](08-google-search-ranking-systems.md) and, when in scope, [09-ai-llm-discovery-visibility.md](09-ai-llm-discovery-visibility.md).
 
 ## Inputs
 

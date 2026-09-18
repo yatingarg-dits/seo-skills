@@ -4,7 +4,7 @@
 
 Use writing/creation tools only through [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md). ChatGPT, Grammarly, QuillBot, Hemingway, Canva, and similar tools must preserve approved evidence, meaning, voice, and restrictions.
 
-Define the complete input contract a writer/content agent must receive before drafting and the rules it must follow during generation.
+Define the complete input contract a writer/content agent must receive before drafting and the rules it must follow during generation. Apply [08-google-search-ranking-systems.md](08-google-search-ranking-systems.md) for people-first/original/reliable content and [09-ai-llm-discovery-visibility.md](09-ai-llm-discovery-visibility.md) when AI discovery/citation is a goal.
 
 ## Required content contract
 

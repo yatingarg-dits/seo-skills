@@ -6,6 +6,10 @@ Maintain the approved SEO, analytics, technical, backlink, content, social, publ
 
 Use this file as the central tool-control layer. Other workflow files should reference this file for tool selection instead of creating independent tool lists.
 
+## System companions
+
+Use [08-google-search-ranking-systems.md](08-google-search-ranking-systems.md) when tool findings are being interpreted against Google ranking/core/spam systems. Use [09-ai-llm-discovery-visibility.md](09-ai-llm-discovery-visibility.md) when tools are used to test AI/LLM discovery, citations, crawlers, or referrals.
+
 ## Tool-use rules
 
 1. Select a tool by task and evidence need; do not create one universal "best tool".

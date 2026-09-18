@@ -2,6 +2,8 @@
 
 ## Purpose
 
+Use [08-google-search-ranking-systems.md](08-google-search-ranking-systems.md) for PageRank/link-analysis context and spam/link-policy controls. Discovery volume or third-party authority scores must never replace relevance/editorial value.
+
 Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for Ahrefs, Semrush, Moz, Bing backlink data, Similarweb supporting research, and GuestPostLinks commercial discovery.
 
 Find candidate backlink opportunities from approved sources without assuming they are suitable.

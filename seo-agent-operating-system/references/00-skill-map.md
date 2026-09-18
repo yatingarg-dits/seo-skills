@@ -13,6 +13,8 @@ Use this map to select the smallest relevant module and preserve handoffs.
 | `05-author-brand-identity.md` | Authors, bios, signatures, public identity |
 | `06-client-content-style-rules.md` | Tone, claims, exclusions, terminology |
 | `07-seo-content-tool-stack.md` | Central SEO/content tool roles, processes, limitations, and routing |
+| `08-google-search-ranking-systems.md` | Google ranking systems, core/spam updates, algorithm controls and diagnosis |
+| `09-ai-llm-discovery-visibility.md` | AI/LLM search discovery, crawler, retrieval, citation and visibility controls |
 
 ## Keyword research
 

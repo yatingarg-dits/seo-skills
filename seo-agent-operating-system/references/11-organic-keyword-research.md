@@ -4,7 +4,7 @@
 
 Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for the approved roles/processes of Search Console, Ahrefs, Semrush, Moz, Google Trends, Google Keyword Planner, Similarweb, SEOquake, and content-research tools.
 
-Run the complete experienced-SEO organic keyword process from existing-property signals through competitor/SERP validation and URL mapping.
+Run the complete experienced-SEO organic keyword process from existing-property signals through competitor/SERP validation and URL mapping. Apply [08-google-search-ranking-systems.md](08-google-search-ranking-systems.md) so intent/concept matching is not reduced to exact keywords, and use [09-ai-llm-discovery-visibility.md](09-ai-llm-discovery-visibility.md) when the research also targets generative-search visibility.
 
 ## Prerequisites
 

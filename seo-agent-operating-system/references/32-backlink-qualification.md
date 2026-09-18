@@ -2,6 +2,8 @@
 
 ## Purpose
 
+Apply [08-google-search-ranking-systems.md](08-google-search-ranking-systems.md) for link-analysis/PageRank context, Penguin historical context, SpamBrain/spam-policy risk, and the rule that third-party authority metrics are not Google metrics.
+
 Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for provider-specific backlink metrics and GuestPostLinks handling. Preserve the provider name/date with every material metric.
 
 Decide whether a candidate website is suitable using relevance, audience, real visibility, risk, authority, indexability, and manual quality—not DA alone.

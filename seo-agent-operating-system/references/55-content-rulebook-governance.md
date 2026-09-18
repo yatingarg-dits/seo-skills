@@ -4,6 +4,10 @@
 
 Apply the baseline Phase 1 content rules across research, drafting, validation, approval, publishing, and monitoring.
 
+## Search/AI system rule
+
+Apply [08-google-search-ranking-systems.md](08-google-search-ranking-systems.md) and [09-ai-llm-discovery-visibility.md](09-ai-llm-discovery-visibility.md) where relevant. Do not optimize for guessed algorithms, hidden weights, AI-detector scores, or unverified GEO/AEO hacks.
+
 ## Baseline rules
 
 ### G-01 Business objective must be known

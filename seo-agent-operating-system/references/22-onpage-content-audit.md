@@ -4,7 +4,7 @@
 
 Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for SEOquake, Yoast, Screaming Frog, Semrush/Ahrefs, SEOptimer/SEOmator-like audit support, and their limitations. Tool findings remain evidence, not automatic priorities.
 
-Audit page-level relevance, search intent, metadata, headings, content quality, duplication, and keyword targeting.
+Audit page-level relevance, search intent, metadata, headings, content quality, duplication, and keyword targeting. Evaluate helpfulness, originality, intent/concept fit, freshness, review quality, and spam risk against [08-google-search-ranking-systems.md](08-google-search-ranking-systems.md); use [09-ai-llm-discovery-visibility.md](09-ai-llm-discovery-visibility.md) when AI citation visibility is in scope.
 
 ## Inputs
 

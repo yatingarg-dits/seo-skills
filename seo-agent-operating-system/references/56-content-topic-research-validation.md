@@ -4,7 +4,7 @@
 
 Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for Google Trends, Ahrefs/Semrush, BuzzSumo, AnswerThePublic, Similarweb, Frase, Surfer, and ChatGPT-supported ideation/research. Validate the resulting topic with business/context/SERP evidence.
 
-Turn a keyword, cluster, topic seed, or campaign requirement into an approved topic direction without duplicating existing content.
+Turn a keyword, cluster, topic seed, or campaign requirement into an approved topic direction without duplicating existing content. Apply [08-google-search-ranking-systems.md](08-google-search-ranking-systems.md) for intent, originality, freshness, deduplication, and scaled-content risk; apply [09-ai-llm-discovery-visibility.md](09-ai-llm-discovery-visibility.md) when AI citation visibility is in scope.
 
 
 ## Contents

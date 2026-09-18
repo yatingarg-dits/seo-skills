@@ -4,7 +4,7 @@
 
 Run content from initial keyword/topic input through research, validation, approval, publishing, verification, indexation, ranking monitoring, and performance review.
 
-Treat this file as the content workflow orchestrator. Load the stage-specific files only when that stage is active.
+Treat this file as the content workflow orchestrator. Load the stage-specific files only when that stage is active. For SEO content load [08-google-search-ranking-systems.md](08-google-search-ranking-systems.md); when AI/LLM visibility is in scope also load [09-ai-llm-discovery-visibility.md](09-ai-llm-discovery-visibility.md).
 
 When a stage needs a tool, load [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) and follow its approved role/process instead of choosing a tool by convenience alone.
 

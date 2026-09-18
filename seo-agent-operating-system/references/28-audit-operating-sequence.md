@@ -2,6 +2,8 @@
 
 ## Purpose
 
+When the audit follows a ranking/traffic change, first check [08-google-search-ranking-systems.md](08-google-search-ranking-systems.md). When AI/LLM visibility is part of scope, include [09-ai-llm-discovery-visibility.md](09-ai-llm-discovery-visibility.md) crawler/index/citation checks.
+
 Select and configure audit tools through [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) before running the sequence.
 
 Define the exact experienced-SEO audit order so the agent does not treat a crawler export as the finished audit.

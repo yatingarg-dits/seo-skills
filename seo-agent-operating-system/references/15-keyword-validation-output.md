@@ -24,6 +24,8 @@ Check:
 - Conversion potential
 - Cannibalization risk
 - Content/resource requirement
+- Google ranking-system/spam-policy risk from [08-google-search-ranking-systems.md](08-google-search-ranking-systems.md)
+- AI/LLM visibility objective from [09-ai-llm-discovery-visibility.md](09-ai-llm-discovery-visibility.md) when in scope
 
 ## Final statuses
 

@@ -4,7 +4,7 @@
 
 Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for Grammarly, Hemingway, Copyscape, ZeroGPT, Surfer/Frase, and other QA tools. AI-detection or content-optimization scores are warning/support signals only.
 
-Evaluate whether a draft is useful, defensible, brand-appropriate, clear, and meaningfully differentiated before formal validation.
+Evaluate whether a draft is useful, defensible, brand-appropriate, clear, and meaningfully differentiated before formal validation. Use [08-google-search-ranking-systems.md](08-google-search-ranking-systems.md) for helpful/original/reliable/spam controls and [09-ai-llm-discovery-visibility.md](09-ai-llm-discovery-visibility.md) for AI citation-worthiness without rewriting solely for machines.
 
 ## Core quality dimensions
 

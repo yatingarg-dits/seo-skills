@@ -4,7 +4,7 @@
 
 Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for Search Console, Bing Webmaster Tools, GA4, Clarity, and approved rank/SEO platforms during post-publication monitoring.
 
-Monitor verified website content after publication or SEO implementation and decide whether to monitor, optimize, or close the active review cycle.
+Monitor verified website content after publication or SEO implementation and decide whether to monitor, optimize, or close the active review cycle. For ranking-update diagnosis use [08-google-search-ranking-systems.md](08-google-search-ranking-systems.md); for AI/LLM citation/referral monitoring use [09-ai-llm-discovery-visibility.md](09-ai-llm-discovery-visibility.md).
 
 Backlink-page verification remains in [38-backlink-verification-monitoring.md](38-backlink-verification-monitoring.md).
 
@@ -100,6 +100,9 @@ Flag:
 - Redirect/error/noindex/canonical change
 - Content disappearance/unapproved change
 - Important internal links removed
+- Confirmed Google core/spam/Discover update overlaps
+- AI/LLM crawler/access change when monitored
+- Material AI citation/referral visibility change when monitored
 
 Use team-approved timing thresholds. If none exist, mark `NEEDS_HUMAN_RULE` instead of inventing a number of days.
 

@@ -4,7 +4,7 @@
 
 Route each off-page activity to its own process file. Use this map after the activity is identified.
 
-The supplied activity list contains both backlink-building activities and broader off-page/indexing/distribution activities. Do not force every activity through the same execution path.
+The supplied activity list contains both backlink-building activities and broader off-page/indexing/distribution activities. Do not force every activity through the same execution path. All link/distribution activities must respect [08-google-search-ranking-systems.md](08-google-search-ranking-systems.md), especially spam detection/link abuse/scaled-content controls. Do not manufacture mentions or links solely to manipulate Google or AI/LLM responses; use [09-ai-llm-discovery-visibility.md](09-ai-llm-discovery-visibility.md) for AI visibility rules.
 
 ## Common prerequisites
 

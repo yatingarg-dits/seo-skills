@@ -18,8 +18,12 @@ Capture approved defaults for:
 
 - Supported SEO/content/off-page activities
 - Approved/free/paid tools and integrations
+- Google Search ranking-system/core/spam-update controls
+- AI/LLM discovery, citation, crawler, and visibility controls
 
 Centralize approved tool roles and operating processes in [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md). Downstream modules may narrow tool usage but should not redefine the tool's core role without an approved override.
+
+Use [08-google-search-ranking-systems.md](08-google-search-ranking-systems.md) for Google system/update interpretation and [09-ai-llm-discovery-visibility.md](09-ai-llm-discovery-visibility.md) for AI/LLM discovery/citation controls. Do not promote industry rumors or guessed algorithm weights into platform rules.
 - Keyword data-source priority
 - Content research/source reliability
 - Content approval and publishing authority

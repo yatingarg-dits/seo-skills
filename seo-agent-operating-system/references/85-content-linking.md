@@ -4,7 +4,7 @@
 
 Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for crawl/internal-link tools, Surfer/Yoast suggestions, and external-source validation support.
 
-Add or recommend links that improve user usefulness, evidence, navigation, and site architecture without forcing links for SEO alone.
+Add or recommend links that improve user usefulness, evidence, navigation, and site architecture without forcing links for SEO alone. Apply [08-google-search-ranking-systems.md](08-google-search-ranking-systems.md) for PageRank/link-spam context and [09-ai-llm-discovery-visibility.md](09-ai-llm-discovery-visibility.md) for source/citation-worthiness.
 
 ## Internal-link evaluation sequence
 

@@ -2,6 +2,8 @@
 
 ## Purpose
 
+Apply [08-google-search-ranking-systems.md](08-google-search-ranking-systems.md) so anchor selection supports relevance and users without manipulative exact-match/link-spam patterns.
+
 Select the client target page and anchor approach based on relevance, business priority, existing link distribution, and property rules.
 
 ## Inputs

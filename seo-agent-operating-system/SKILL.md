@@ -1,6 +1,6 @@
 ---
 name: seo-agent-operating-system
-description: Modular SEO and content operating system for experienced digital marketing teams. Use when ChatGPT must perform or document SEO keyword research, paid keyword research, website audits, content research/briefing/creation/validation/approval/publishing/monitoring, backlink discovery and qualification, off-page activities, business listings, indexing, performance monitoring, or human-feedback learning. Route every task to the smallest relevant module, preserve platform, agency, client, property, activity, content, and publisher context, and use configured defaults/overrides rather than inventing missing client facts.
+description: Modular SEO and content operating system for experienced digital marketing teams. Use when ChatGPT must perform or document SEO keyword research, paid keyword research, website audits, content research/briefing/creation/validation/approval/publishing/monitoring, backlink discovery and qualification, off-page activities, business listings, indexing, performance monitoring, Google Search ranking-system/algorithm diagnosis, AI/LLM discovery and citation visibility, or human-feedback learning. Route every task to the smallest relevant module, preserve platform, agency, client, property, activity, content, and publisher context, and use configured defaults/overrides rather than inventing missing client facts.
 ---
 
 # SEO Agent Operating System
@@ -22,6 +22,7 @@ Use this skill as a router. Load only the modules required for the current task.
 11. Recommend before executing when judgment or high-risk external action is required.
 12. Automate repetition, not accountability.
 13. Use [07-seo-content-tool-stack.md](references/07-seo-content-tool-stack.md) as the central tool-control file; do not invent a different tool role in downstream modules.
+14. Use [08-google-search-ranking-systems.md](references/08-google-search-ranking-systems.md) for Google ranking/core/spam-system decisions and [09-ai-llm-discovery-visibility.md](references/09-ai-llm-discovery-visibility.md) for AI/LLM discovery, retrieval, citation, and crawler controls; never invent proprietary algorithm weights.
 
 ## Context route
 
@@ -35,6 +36,14 @@ Load as needed:
 - [05-author-brand-identity.md](references/05-author-brand-identity.md)
 - [06-client-content-style-rules.md](references/06-client-content-style-rules.md)
 - [07-seo-content-tool-stack.md](references/07-seo-content-tool-stack.md) when a task requires tool selection, tool data, tool-specific execution, or tool limitations
+- [08-google-search-ranking-systems.md](references/08-google-search-ranking-systems.md) for Google ranking systems, core/spam update interpretation, and algorithm-related SEO/content controls
+- [09-ai-llm-discovery-visibility.md](references/09-ai-llm-discovery-visibility.md) for Google AI features, ChatGPT Search, Perplexity, Bing/Copilot, Claude, and other AI/LLM discovery/citation visibility
+
+## Search-system and AI-visibility route
+
+For Google ranking/update work: `08-google-search-ranking-systems` -> relevant keyword/audit/content/backlink module -> `53-indexing-monitoring`.
+
+For AI/LLM visibility: `09-ai-llm-discovery-visibility` -> `21` technical access/index checks + `56/57/50/84/86` content work as applicable -> `53` monitoring.
 
 ## Keyword research route
 

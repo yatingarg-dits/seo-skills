@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Validate organic keyword intent and real search competition using current SERP evidence, not only tool difficulty scores.
+Validate organic keyword intent and real search competition using current SERP evidence, not only tool difficulty scores. Use [08-google-search-ranking-systems.md](08-google-search-ranking-systems.md) to interpret concept matching, freshness, diversity, originality, reviews, and update-related changes without claiming hidden algorithm weights.
 
 ## Input
 

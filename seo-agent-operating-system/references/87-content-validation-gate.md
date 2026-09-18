@@ -4,7 +4,7 @@
 
 Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) to interpret tool output. No tool score can by itself create `PASS`, `WARNING`, or `BLOCK`; the decision must map to the validation evidence and rule.
 
-Apply a consistent PASS/WARNING/BLOCK decision before approval or publishing.
+Apply a consistent PASS/WARNING/BLOCK decision before approval or publishing. A Google/AI visibility objective must also pass the relevant controls in [08-google-search-ranking-systems.md](08-google-search-ranking-systems.md) and [09-ai-llm-discovery-visibility.md](09-ai-llm-discovery-visibility.md); no algorithm rumor or third-party score can create a PASS.
 
 The validator must explain why an item passed, warned, or failed. Do not return only a score.
 

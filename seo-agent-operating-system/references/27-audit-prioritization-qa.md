@@ -2,6 +2,8 @@
 
 ## Purpose
 
+Use [08-google-search-ranking-systems.md](08-google-search-ranking-systems.md) when a finding may relate to a core/spam update. Update correlation alone must not be treated as root-cause proof.
+
 Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for tool limitations. Never copy a crawler/audit platform severity or score directly into final business priority.
 
 Turn audit findings into executable work, verify fixes, and prevent tool severity from replacing SEO/business judgment.

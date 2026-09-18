@@ -4,7 +4,7 @@
 
 Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for PageSpeed Insights/Lighthouse, Rich Results Test, Schema.org Validator, schema generators, and supporting crawl tools. The Google Mobile-Friendly Test is retired and must not be used for new work.
 
-Audit technical user-experience signals and implementation quality without reducing SEO to a single tool score.
+Audit technical user-experience signals and implementation quality without reducing SEO to a single tool score. Follow [08-google-search-ranking-systems.md](08-google-search-ranking-systems.md): page experience is not a single algorithm/score. For AI features, [09-ai-llm-discovery-visibility.md](09-ai-llm-discovery-visibility.md) does not require special AI schema.
 
 ## Performance evidence
 
