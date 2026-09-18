@@ -10,6 +10,10 @@ Apply [08-google-search-ranking-systems.md](08-google-search-ranking-systems.md)
 
 ## Baseline rules
 
+## Prompt-library governance
+
+Use [90-prompt-library-index.md](90-prompt-library-index.md) for prompt selection. Files `91-120` are immutable approved prompt source text. Do not rewrite, summarize, normalize, or merge those source files. Resolve placeholders at runtime from approved context and record the selected prompt file(s). If a prompt requirement conflicts with a higher-priority factual, legal, client, publisher, or authorization rule, keep the source prompt unchanged and record the runtime conflict/decision.
+
 ### G-01 Business objective must be known
 
 Identify whether the asset supports traffic, authority, leads, conversion, awareness, or another approved objective.

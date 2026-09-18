@@ -6,6 +6,8 @@ Share short-form updates, promotions, or content snippets on approved micro-blog
 
 ## Purpose
 
+When the requested format is LinkedIn content promotion, use [90-prompt-library-index.md](90-prompt-library-index.md) with [97-prompt-linkedin-content-promotion.md](97-prompt-linkedin-content-promotion.md). For an executive case-study/event post, use [103-prompt-executive-case-study-event-post.md](103-prompt-executive-case-study-event-post.md).
+
 Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for Buffer scheduling/approval/analytics and Canva visual production when those tools are approved.
 
 Use short-form distribution to increase content visibility, referral opportunities, brand presence, and relevant engagement. Do not promise direct ranking improvement from social engagement alone.

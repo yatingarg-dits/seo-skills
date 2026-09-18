@@ -1,6 +1,6 @@
 ---
 name: seo-agent-operating-system
-description: Modular SEO and content operating system for experienced digital marketing teams. Use when ChatGPT must perform or document SEO keyword research, paid keyword research, website audits, content research/briefing/creation/validation/approval/publishing/monitoring, backlink discovery and qualification, off-page activities, business listings, indexing, performance monitoring, Google Search ranking-system/algorithm diagnosis, AI/LLM discovery and citation visibility, or human-feedback learning. Route every task to the smallest relevant module, preserve platform, agency, client, property, activity, content, and publisher context, and use configured defaults/overrides rather than inventing missing client facts.
+description: Modular SEO and content operating system for experienced digital marketing teams. Use when ChatGPT must perform or document SEO keyword research, paid keyword research, website audits, content research/briefing/creation/validation/approval/publishing/monitoring, prompt-library-driven content generation, backlink discovery and qualification, off-page activities, business listings, indexing, performance monitoring, Google Search ranking-system/algorithm diagnosis, AI/LLM discovery and citation visibility, or human-feedback learning. Route every task to the smallest relevant module, preserve platform, agency, client, property, activity, content, and publisher context, and use configured defaults/overrides rather than inventing missing client facts.
 ---
 
 # SEO Agent Operating System
@@ -23,6 +23,7 @@ Use this skill as a router. Load only the modules required for the current task.
 12. Automate repetition, not accountability.
 13. Use [07-seo-content-tool-stack.md](references/07-seo-content-tool-stack.md) as the central tool-control file; do not invent a different tool role in downstream modules.
 14. Use [08-google-search-ranking-systems.md](references/08-google-search-ranking-systems.md) for Google ranking/core/spam-system decisions and [09-ai-llm-discovery-visibility.md](references/09-ai-llm-discovery-visibility.md) for AI/LLM discovery, retrieval, citation, and crawler controls; never invent proprietary algorithm weights.
+15. Use [90-prompt-library-index.md](references/90-prompt-library-index.md) to select the approved content prompt. Treat prompt files `91-120` as immutable source text: do not paraphrase, shorten, merge, or rewrite them; resolve square-bracket placeholders only at runtime from approved context.
 
 ## Context route
 
@@ -59,9 +60,15 @@ Paid:
 
 Use `29-audit-example-output` only for output-format examples, never as client evidence.
 
+## Prompt library route
+
+Use [90-prompt-library-index.md](references/90-prompt-library-index.md) before drafting any prompt-library content. Load [91-prompt-core-direction.md](references/91-prompt-core-direction.md) for every prompt, then the exact format/stage file from `93-119`; load [92-prompt-long-form-writing-framework.md](references/92-prompt-long-form-writing-framework.md) and [120-prompt-multi-brand-guardrail.md](references/120-prompt-multi-brand-guardrail.md) when the router requires them.
+
+The individual immutable prompt files are: [93](references/93-prompt-google-search-ads.md), [94](references/94-prompt-business-directory-descriptions.md), [95](references/95-prompt-meta-tags.md), [96](references/96-prompt-aeo-search-faqs.md), [97](references/97-prompt-linkedin-content-promotion.md), [98](references/98-prompt-calls-to-action.md), [99](references/99-prompt-image-brief.md), [100](references/100-prompt-business-insight-newsletter.md), [101](references/101-prompt-guest-article.md), [102](references/102-prompt-research-based-article-titles.md), [103](references/103-prompt-executive-case-study-event-post.md), [104-110](references/104-prompt-local-company-listicle-workflow-rules.md) for the listicle workflow, and [111-119](references/111-prompt-onsite-blog-workflow-rules.md) for the on-site blog workflow.
+
 ## Content production route
 
-Use [54-content-production-workflow.md](references/54-content-production-workflow.md) as the content orchestrator.
+Use [54-content-production-workflow.md](references/54-content-production-workflow.md) as the content orchestrator and [90-prompt-library-index.md](references/90-prompt-library-index.md) as the prompt selector whenever the asset matches a library format.
 
 For SEO/keyword-led content:
 

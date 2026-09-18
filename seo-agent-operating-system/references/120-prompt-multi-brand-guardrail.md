@@ -1,0 +1,3 @@
+Multi-Brand Guardrail 
+
+Treat every company as a separate brand. Use only the selected brand’s approved positioning, audience, geography, evidence, services, capabilities, terminology, voice, links, offers, and CTA. Never transfer details from another company, campaign, or earlier prompt. Apply the same quality principles to every brand: understand the user’s need, use verified claims, avoid keyword stuffing, and provide a relevant next step. 

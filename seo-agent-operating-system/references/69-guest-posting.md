@@ -20,7 +20,7 @@ Require qualified publisher from [32-backlink-qualification.md](32-backlink-qual
 4. Develop topic ideas that fit publisher audience and client expertise.
 5. Pitch when outreach is required.
 6. Record response, price/terms, and editorial conditions.
-7. Create article through [35-backlink-content-generation.md](35-backlink-content-generation.md).
+7. Create article through [35-backlink-content-generation.md](35-backlink-content-generation.md). When the requested asset matches the approved guest-article format, load [90-prompt-library-index.md](90-prompt-library-index.md) and the exact [101-prompt-guest-article.md](101-prompt-guest-article.md) prompt.
 8. Include approved target URL/anchor only where permitted and natural.
 9. Add approved author bio/signature when required.
 10. Submit using [37-backlink-outreach-submission.md](37-backlink-outreach-submission.md).

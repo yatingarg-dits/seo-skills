@@ -2,6 +2,8 @@
 
 ## Purpose
 
+Use [90-prompt-library-index.md](90-prompt-library-index.md) when the research task is driven by a library format. Use [102-prompt-research-based-article-titles.md](102-prompt-research-based-article-titles.md) for research-based title ideation, listicle stage [105-prompt-local-company-listicle-01-market-outline.md](105-prompt-local-company-listicle-01-market-outline.md) for local-company market validation, and blog stage [112-prompt-onsite-blog-01-strategy-outline.md](112-prompt-onsite-blog-01-strategy-outline.md) for on-site blog strategy.
+
 Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for Google Trends, Ahrefs/Semrush, BuzzSumo, AnswerThePublic, Similarweb, Frase, Surfer, and ChatGPT-supported ideation/research. Validate the resulting topic with business/context/SERP evidence.
 
 Turn a keyword, cluster, topic seed, or campaign requirement into an approved topic direction without duplicating existing content. Apply [08-google-search-ranking-systems.md](08-google-search-ranking-systems.md) for intent, originality, freshness, deduplication, and scaled-content risk; apply [09-ai-llm-discovery-visibility.md](09-ai-llm-discovery-visibility.md) when AI citation visibility is in scope.

@@ -8,6 +8,8 @@ Publish approved content/SEO changes without introducing technical or content re
 
 ## Inputs
 
+For prompt-library assets, publish only the validated/approved output associated with the recorded prompt file(s) from [90-prompt-library-index.md](90-prompt-library-index.md). Do not silently regenerate metadata, FAQs, CTA, or copy at publish time with a different prompt.
+
 Require:
 
 - Approved/authorized content from [88-content-approval-revision.md](88-content-approval-revision.md), or

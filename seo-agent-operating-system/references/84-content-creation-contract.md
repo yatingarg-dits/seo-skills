@@ -2,6 +2,8 @@
 
 ## Purpose
 
+For any format covered by the prompt library, first load [90-prompt-library-index.md](90-prompt-library-index.md), [91-prompt-core-direction.md](91-prompt-core-direction.md), and the exact selected prompt file. Add [92-prompt-long-form-writing-framework.md](92-prompt-long-form-writing-framework.md) and [120-prompt-multi-brand-guardrail.md](120-prompt-multi-brand-guardrail.md) only when the router requires them. Never rewrite the stored prompt source.
+
 Use writing/creation tools only through [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md). ChatGPT, Grammarly, QuillBot, Hemingway, Canva, and similar tools must preserve approved evidence, meaning, voice, and restrictions.
 
 Define the complete input contract a writer/content agent must receive before drafting and the rules it must follow during generation. Apply [08-google-search-ranking-systems.md](08-google-search-ranking-systems.md) for people-first/original/reliable content and [09-ai-llm-discovery-visibility.md](09-ai-llm-discovery-visibility.md) when AI discovery/citation is a goal.
@@ -10,7 +12,7 @@ Define the complete input contract a writer/content agent must receive before dr
 
 Provide:
 
-`Audience + Objective + Intent + Brand Voice + Brief + Evidence + Product/Service Context + CTA + Restrictions`
+`Selected Prompt + Audience + Objective + Intent + Brand Voice + Brief + Evidence + Product/Service Context + CTA + Restrictions`
 
 Do not draft when a missing contract field creates a material risk of incorrect positioning, fabricated claims, or wrong audience/intent.
 
@@ -25,6 +27,7 @@ Load as applicable:
 - [50-seo-content-brief.md](50-seo-content-brief.md)
 - [57-content-source-research-reliability.md](57-content-source-research-reliability.md)
 - [58-content-layout-validation.md](58-content-layout-validation.md)
+- [90-prompt-library-index.md](90-prompt-library-index.md) and exact selected prompt file(s) when applicable
 
 ## Creation rules
 
@@ -64,6 +67,7 @@ Use:
 Store:
 
 - Asset/topic
+- Selected prompt file(s) and workflow stage
 - Brief/layout version
 - Research-pack version
 - Draft version

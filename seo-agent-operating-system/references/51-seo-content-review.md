@@ -2,6 +2,8 @@
 
 ## Purpose
 
+When content was generated from the approved prompt library, load [90-prompt-library-index.md](90-prompt-library-index.md) and the exact selected prompt file(s). Validate every format-specific requirement without paraphrasing the stored prompt into a weaker checklist.
+
 Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) for Grammarly, Hemingway, QuillBot, ZeroGPT, Surfer/Frase/Yoast, and other review tools. Their scores/suggestions cannot override factual, brand, intent, or human-review rules.
 
 Review drafted content for factual accuracy, source quality, audience/intent fit, business relevance, brand rules, usefulness, on-page SEO, linking, and publication readiness. Validate against [08-google-search-ranking-systems.md](08-google-search-ranking-systems.md) and, when in scope, [09-ai-llm-discovery-visibility.md](09-ai-llm-discovery-visibility.md).

@@ -2,6 +2,8 @@
 
 ## Purpose
 
+Select exact prompt-library wording through [90-prompt-library-index.md](90-prompt-library-index.md) when the content type matches. Use [101-prompt-guest-article.md](101-prompt-guest-article.md) for guest/thought-leadership articles and [94-prompt-business-directory-descriptions.md](94-prompt-business-directory-descriptions.md) for qualifying off-page/business descriptions.
+
 When writing/editing tools are used, follow [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) plus client/property/publisher rules.
 
 Create proposed content for an approved backlink opportunity using property context, target/anchor planning, publisher requirements, and the exact activity workflow.

@@ -54,6 +54,8 @@ When applying feedback:
 - Recheck intent/structure when sections are added/removed.
 - Recheck links when URLs/sections change.
 - Preserve an audit trail of meaningful reviewer changes.
+- Preserve the selected prompt file(s) and prompt-specific requirements unless the reviewer explicitly changes the content format/workflow.
+- If the content format changes, return to [90-prompt-library-index.md](90-prompt-library-index.md), select the new exact prompt, and revalidate affected sections.
 
 ## Publishing authority
 

@@ -16,6 +16,42 @@ Use this map to select the smallest relevant module and preserve handoffs.
 | `08-google-search-ranking-systems.md` | Google ranking systems, core/spam updates, algorithm controls and diagnosis |
 | `09-ai-llm-discovery-visibility.md` | AI/LLM search discovery, crawler, retrieval, citation and visibility controls |
 
+## Content prompt library
+
+| File | Responsibility |
+|---|---|
+| `90-prompt-library-index.md` | Prompt selection, immutable-prompt routing, placeholder/runtime rules |
+| `91-prompt-core-direction.md` | Exact shared Core Direction for Every Content Prompt |
+| `92-prompt-long-form-writing-framework.md` | Exact Complete Writing Framework for Long-Form Content |
+| `93-prompt-google-search-ads.md` | Exact Google Search Ads prompt |
+| `94-prompt-business-directory-descriptions.md` | Exact business/directory description prompt |
+| `95-prompt-meta-tags.md` | Exact meta tags prompt |
+| `96-prompt-aeo-search-faqs.md` | Exact AEO/search FAQ prompt |
+| `97-prompt-linkedin-content-promotion.md` | Exact LinkedIn content-promotion prompt |
+| `98-prompt-calls-to-action.md` | Exact CTA prompt |
+| `99-prompt-image-brief.md` | Exact image-brief prompt |
+| `100-prompt-business-insight-newsletter.md` | Exact business insight/newsletter prompt |
+| `101-prompt-guest-article.md` | Exact guest article prompt |
+| `102-prompt-research-based-article-titles.md` | Exact research-based article-title prompt |
+| `103-prompt-executive-case-study-event-post.md` | Exact executive case-study/event-post prompt |
+| `104-prompt-local-company-listicle-workflow-rules.md` | Exact local-company-listicle workflow parameters |
+| `105-prompt-local-company-listicle-01-market-outline.md` | Exact listicle prompt 1 |
+| `106-prompt-local-company-listicle-02-brand-profile.md` | Exact listicle prompt 2 |
+| `107-prompt-local-company-listicle-03-other-profiles-conclusion.md` | Exact listicle prompt 3 |
+| `108-prompt-local-company-listicle-04-linkedin-promotion.md` | Exact listicle prompt 4 |
+| `109-prompt-local-company-listicle-05-faqs.md` | Exact listicle prompt 5 |
+| `110-prompt-local-company-listicle-06-alternative-titles.md` | Exact listicle prompt 6 |
+| `111-prompt-onsite-blog-workflow-rules.md` | Exact on-site-blog workflow parameters |
+| `112-prompt-onsite-blog-01-strategy-outline.md` | Exact blog prompt 1 |
+| `113-prompt-onsite-blog-02-whole-article-rules.md` | Exact blog prompt 2 |
+| `114-prompt-onsite-blog-03-first-section-group.md` | Exact blog prompt 3 |
+| `115-prompt-onsite-blog-04-second-section-group.md` | Exact blog prompt 4 |
+| `116-prompt-onsite-blog-05-conclusion-engagement-models.md` | Exact blog prompt 5 |
+| `117-prompt-onsite-blog-06-alternative-titles.md` | Exact blog prompt 6 |
+| `118-prompt-onsite-blog-07-faqs.md` | Exact blog prompt 7 |
+| `119-prompt-onsite-blog-08-metadata-final-audit.md` | Exact blog prompt 8 |
+| `120-prompt-multi-brand-guardrail.md` | Exact multi-brand guardrail |
+
 ## Keyword research
 
 | File | Responsibility |

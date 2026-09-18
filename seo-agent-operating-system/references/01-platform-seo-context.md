@@ -18,6 +18,7 @@ Capture approved defaults for:
 
 - Supported SEO/content/off-page activities
 - Approved/free/paid tools and integrations
+- Approved content prompt library and immutable prompt-source rules
 - Google Search ranking-system/core/spam-update controls
 - AI/LLM discovery, citation, crawler, and visibility controls
 

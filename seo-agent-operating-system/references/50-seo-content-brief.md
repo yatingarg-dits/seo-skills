@@ -2,6 +2,8 @@
 
 ## Purpose
 
+If the requested asset matches the approved prompt library, select it through [90-prompt-library-index.md](90-prompt-library-index.md) before finalizing the brief. Record the selected prompt file and any required shared framework files. Use [95-prompt-meta-tags.md](95-prompt-meta-tags.md), [96-prompt-aeo-search-faqs.md](96-prompt-aeo-search-faqs.md), [98-prompt-calls-to-action.md](98-prompt-calls-to-action.md), or [102-prompt-research-based-article-titles.md](102-prompt-research-based-article-titles.md) when those are separate requested outputs.
+
 Use [07-seo-content-tool-stack.md](07-seo-content-tool-stack.md) when selecting research/briefing tools such as live SERP research, Ahrefs/Semrush, BuzzSumo, AnswerThePublic, Frase, or Surfer. Tool outlines never replace the required information architecture.
 
 Turn approved keyword/topic direction, client/property context, SERP observations, and research requirements into an execution-ready content brief and information architecture. Apply [08-google-search-ranking-systems.md](08-google-search-ranking-systems.md) for people-first/original/reliable/intent controls and [09-ai-llm-discovery-visibility.md](09-ai-llm-discovery-visibility.md) when generative-search citation visibility is an objective.

@@ -2,6 +2,8 @@
 
 ## Purpose
 
+When a platform requires a business/directory description, generate it through [90-prompt-library-index.md](90-prompt-library-index.md) and the exact [94-prompt-business-directory-descriptions.md](94-prompt-business-directory-descriptions.md) prompt, then adapt only to verified platform field limits at runtime without modifying the stored prompt.
+
 Use [61-business-listing.md](61-business-listing.md) as the end-to-end activity controller.
 
 Create, claim, correct, verify, and maintain approved business listings using property-approved business data.

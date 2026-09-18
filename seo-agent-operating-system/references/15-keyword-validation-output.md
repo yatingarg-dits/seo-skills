@@ -69,6 +69,8 @@ Apply [16-keyword-data-source-priority.md](16-keyword-data-source-priority.md). 
 
 ## Handoff
 
+When the requested output is Google Search Ad copy, use [90-prompt-library-index.md](90-prompt-library-index.md) and [93-prompt-google-search-ads.md](93-prompt-google-search-ads.md).
+
 Approved organic clusters feed content/on-page/audit modules. Approved paid clusters feed the paid campaign workflow outside this skill when available.
 
 ## Content handoff

@@ -79,4 +79,6 @@ Store keyword, cluster, intent, monthly searches, competition, bid ranges, sourc
 
 ## Handoff
 
+When approved paid keywords are used to create Google Search Ad assets, route copy generation through [90-prompt-library-index.md](90-prompt-library-index.md) and the exact [93-prompt-google-search-ads.md](93-prompt-google-search-ads.md) prompt.
+
 Use [15-keyword-validation-output.md](15-keyword-validation-output.md).

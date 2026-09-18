@@ -2,6 +2,8 @@
 
 ## Purpose
 
+For prompt-library content, validate the layout against the exact selected prompt from [90-prompt-library-index.md](90-prompt-library-index.md), including required headings, output sections, word allocation, methodology, or stage carry-forward rules.
+
 Validate the proposed information architecture before drafting so the content covers the user need, business objective, and important information gaps.
 
 ## Inputs

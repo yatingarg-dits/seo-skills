@@ -20,7 +20,7 @@ Support external editorial contribution, brand authority, audience reach, referr
 4. Propose a relevant topic not already over-covered.
 5. Pitch using the approved outreach route.
 6. Agree on topic, format, word range, author bio, link rules, commercial terms, and deadline.
-7. Create original content using [35-backlink-content-generation.md](35-backlink-content-generation.md).
+7. Create original content using [35-backlink-content-generation.md](35-backlink-content-generation.md). When the requested asset matches the approved guest-article format, load [90-prompt-library-index.md](90-prompt-library-index.md) and the exact [101-prompt-guest-article.md](101-prompt-guest-article.md) prompt.
 8. Apply [36-publisher-guidelines.md](36-publisher-guidelines.md).
 9. Submit through [37-backlink-outreach-submission.md](37-backlink-outreach-submission.md).
 10. Review edits/approval.

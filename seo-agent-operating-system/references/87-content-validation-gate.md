@@ -17,6 +17,12 @@ The validator must explain why an item passed, warned, or failed. Do not return 
 - Handoff
 ## Validation matrix
 
+### Prompt compliance
+
+- PASS: Exact selected prompt requirements are satisfied
+- WARNING: Non-blocking format/detail requirement needs review
+- BLOCK: Wrong prompt used, required prompt/framework omitted, or prompt requirement materially violated
+
 ### Factual accuracy
 
 - PASS: Supported
@@ -99,6 +105,7 @@ Return:
 
 - Overall outcome
 - Check/dimension
+- Selected prompt file(s) when applicable
 - Evidence/reference
 - Reason
 - Required change

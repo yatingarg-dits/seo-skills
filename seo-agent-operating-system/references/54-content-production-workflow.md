@@ -2,6 +2,8 @@
 
 ## Purpose
 
+Before any prompt-library content is briefed or drafted, load [90-prompt-library-index.md](90-prompt-library-index.md), [91-prompt-core-direction.md](91-prompt-core-direction.md), and the exact selected format/stage prompt. Load the long-form framework and multi-brand guardrail only when required by the router. Prompt files `91-120` are immutable source text.
+
 Run content from initial keyword/topic input through research, validation, approval, publishing, verification, indexation, ranking monitoring, and performance review.
 
 Treat this file as the content workflow orchestrator. Load the stage-specific files only when that stage is active. For SEO content load [08-google-search-ranking-systems.md](08-google-search-ranking-systems.md); when AI/LLM visibility is in scope also load [09-ai-llm-discovery-visibility.md](09-ai-llm-discovery-visibility.md).
@@ -98,6 +100,7 @@ Keep these in the workflow but do not make them universal blockers:
 
 ## Stage-specific routing
 
+- Prompt selection -> [90-prompt-library-index.md](90-prompt-library-index.md)
 Use:
 
 - Topic/context/uniqueness -> [56-content-topic-research-validation.md](56-content-topic-research-validation.md)
@@ -119,6 +122,7 @@ For every stage record:
 
 - Client/property
 - Asset/topic/URL
+- Selected prompt file(s)/workflow stage when applicable
 - Stage
 - Status
 - Input/evidence
